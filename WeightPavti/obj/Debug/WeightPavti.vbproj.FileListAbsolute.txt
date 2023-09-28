@@ -1,0 +1,1185 @@
+D:\WeightPavti\WeightPavti\obj\Debug\ResolveAssemblyReference.cache
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TransportMaster.resources
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TypeMaster.resources
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+D:\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+D:\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+D:\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+D:\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\ResolveAssemblyReference.cache
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TransportMaster.resources
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TypeMaster.resources
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+\\Lenovo-pc2\f\ALLPROJECT\Sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+D:\Advance\Brij\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+D:\Advance\Brij\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+D:\Advance\Brij\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\ResolveAssemblyReference.cache
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TransportMaster.resources
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TypeMaster.resources
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+D:\Advance\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+E:\Brij\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+E:\Brij\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+E:\Brij\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\ResolveAssemblyReference.cache
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TransportMaster.resources
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TypeMaster.resources
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+E:\Brij\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+D:\sangh\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+D:\sangh\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+D:\sangh\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\ResolveAssemblyReference.cache
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TransportMaster.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TypeMaster.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LonePassing.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Payment.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ViewLed.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ItemMst.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PartyMaster.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Purchase.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Sales.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Posting.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Deleteloan.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FindPhone.resources
+D:\sangh\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rojmed.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+D:\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+D:\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+D:\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\ResolveAssemblyReference.cache
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PartyMaster.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Danavak.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Grd.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Javak.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportformnew.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rate_Master.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Member_Opening.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProductMst.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Other_Income.resources
+D:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PostingPosting.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\ResolveAssemblyReference.cache
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Grd.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Javak.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Member_Opening.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PartyMaster.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProductMst.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Other_Income.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PostingPosting.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rate_Master.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportformnew.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Danavak.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+E:\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+E:\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+E:\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceEntry.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.StockReport.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceDebitEntry.resources
+E:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FreeEntri.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FreeEntri.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Grd.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Javak.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceDebitEntry.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceEntry.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Member_Opening.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PartyMaster.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProductMst.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Other_Income.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PostingPosting.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rate_Master.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportformnew.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.StockReport.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Danavak.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.YearEntry.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HousedetailMaster.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Transfer.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\ResolveAssemblyReference.cache
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FreeEntri.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Grd.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HousedetailMaster.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Javak.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceDebitEntry.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceEntry.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Member_Opening.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PartyMaster.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProductMst.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Other_Income.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PostingPosting.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rate_Master.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportformnew.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.StockReport.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Danavak.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Transfer.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.YearEntry.resources
+G:\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+G:\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+G:\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+G:\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountGrpMaster.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountMaster.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountEntry.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Tr.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rojmed.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Acledger.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TarijReport.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TrialBalanceReport.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TradingAccountReport.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProfitandLossAccountReport.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.BalanceSheet.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FInalAccountOpeningEntry.resources
+E:\Project\Desktop\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FinalAccountOpeningEntryBrowser.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Shared.dll
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\System.Web.Services.dll
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\stdole.dll
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.CrystalReports.Engine.xml
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.ReportSource.xml
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Shared.xml
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Windows.Forms.xml
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbprojResolveAssemblyReference.cache
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountEntry.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountGrpMaster.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountMaster.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FInalAccountOpeningEntry.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FinalAccountOpeningEntryBrowser.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FreeEntri.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Grd.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HousedetailMaster.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Javak.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceDebitEntry.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceEntry.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Member_Opening.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PartyMaster.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProductMst.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Other_Income.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PostingPosting.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rate_Master.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportformnew.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Acledger.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.BalanceSheet.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProfitandLossAccountReport.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rojmed.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.StockReport.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TarijReport.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TradingAccountReport.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TrialBalanceReport.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Tr.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Danavak.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Transfer.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.YearEntry.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe.config
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.dll
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.xml
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\fr\AdvancedDataGridView.resources.dll
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\ru\AdvancedDataGridView.resources.dll
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pra.resources
+E:\Project\vb15\Yuvak Mandal\WeightPavti\WeightPavti\bin\Debug\Bunifu_UI_v1.52.dll
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe.config
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.dll
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu_UI_v1.52.dll
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Shared.dll
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\System.Web.Services.dll
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\stdole.dll
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.xml
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.CrystalReports.Engine.xml
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.ReportSource.xml
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Shared.xml
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Windows.Forms.xml
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\fr\AdvancedDataGridView.resources.dll
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\bin\Debug\ru\AdvancedDataGridView.resources.dll
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbprojResolveAssemblyReference.cache
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountEntry.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountGrpMaster.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountMaster.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FInalAccountOpeningEntry.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FinalAccountOpeningEntryBrowser.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FreeEntri.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Grd.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HousedetailMaster.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Javak.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceDebitEntry.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceEntry.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Member_Opening.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PartyMaster.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProductMst.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Other_Income.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PostingPosting.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rate_Master.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportformnew.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Acledger.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.BalanceSheet.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProfitandLossAccountReport.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rojmed.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.StockReport.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TarijReport.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TradingAccountReport.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TrialBalanceReport.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Tr.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Danavak.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pra.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Transfer.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.YearEntry.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberMaster.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.VillageMst.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ItemMst.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmSalesEntry.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmPurchaseEntry.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmMalavakEntry.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberInward.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberReceipt.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanPayment.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanReceipt.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdReceipt.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdPayment.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingReceipt.resources
+E:\Project\vb15\Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingPayment.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe.config
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu_UI_v1.52.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Shared.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\System.Web.Services.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\stdole.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.CrystalReports.Engine.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.ReportSource.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Shared.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Windows.Forms.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\fr\AdvancedDataGridView.resources.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\ru\AdvancedDataGridView.resources.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbprojResolveAssemblyReference.cache
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountEntry.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountGrpMaster.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountMaster.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FInalAccountOpeningEntry.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FinalAccountOpeningEntryBrowser.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FreeEntri.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Grd.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HousedetailMaster.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Javak.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceDebitEntry.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceEntry.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ItemMst.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberMaster.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Member_Opening.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PartyMaster.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProductMst.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.VillageMst.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Other_Income.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PostingPosting.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rate_Master.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportformnew.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Acledger.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.BalanceSheet.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProfitandLossAccountReport.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rojmed.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.StockReport.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TarijReport.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TradingAccountReport.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TrialBalanceReport.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Tr.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Danavak.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdPayment.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdReceipt.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanPayment.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmMalavakEntry.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmPurchaseEntry.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmSalesEntry.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanReceipt.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberInward.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberReceipt.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pra.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingPayment.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingReceipt.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Transfer.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.YearEntry.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Membledger.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Columnmaster.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.Licensing.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanPassingEntry.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.GramLaxmiFixdPayment.resources
+E:\Project\brij\Vayara\WeightPavti\WeightPavti\obj\Debug\WeightPavti.GramlaxmiFixdReceipt.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe.config
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.Licensing.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu_UI_v1.52.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Shared.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\System.Web.Services.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\stdole.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.CrystalReports.Engine.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.ReportSource.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Shared.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Windows.Forms.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\fr\AdvancedDataGridView.resources.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\ru\AdvancedDataGridView.resources.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\Interop.WMPLib.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\bin\Debug\AxInterop.WMPLib.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\Interop.WMPLib.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\AxInterop.WMPLib.dll
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.ResolveComReference.cache
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountGrpMaster.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountMaster.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FInalAccountOpeningEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FinalAccountOpeningEntryBrowser.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FreeEntri.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Grd.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HousedetailMaster.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Intro.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Javak.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceDebitEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Columnmaster.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ItemMst.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberMaster.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Member_Opening.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PartyMaster.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProductMst.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.VillageMst.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MonthlyPosting.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Other_Income.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PostingPosting.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rate_Master.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportformnew.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Acledger.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.BalanceSheet.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdPaymentReport.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdReceiptReport.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanPaymenttReport.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanReceiptReport.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Membledger.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MonthlyReport.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProfitandLossAccountReport.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rojmed.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.StockReport.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TarijReport.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TradingAccountReport.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TrialBalanceReport.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Tr.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Danavak.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdOpening.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdPayment.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdReceipt.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.GramLaxmiFixdPayment.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.GramlaxmiFixdReceipt.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanOpeningEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanPassingEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanPayment.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmMalavakEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmPurchaseEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmSalesEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanReceipt.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberInward.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberOpeningEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberReceipt.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pra.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.RajinamaEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingPayment.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingReceipt.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Transfer.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.YearEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.RajinamaReport.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.BankEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.JVEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.RojmalEntry.resources
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbprojResolveAssemblyReference.cache
+E:\Project\brij\Barodli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingIntrestCalculation.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe.config
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\Interop.WMPLib.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\AxInterop.WMPLib.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.ResolveComReference.cache
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.Licensing.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu_UI_v1.52.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Shared.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\System.Web.Services.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\stdole.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.CrystalReports.Engine.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.ReportSource.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Shared.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Windows.Forms.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\fr\AdvancedDataGridView.resources.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\ru\AdvancedDataGridView.resources.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Interop.WMPLib.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\AxInterop.WMPLib.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountGrpMaster.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountMaster.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FInalAccountOpeningEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FinalAccountOpeningEntryBrowser.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FreeEntri.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Grd.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HousedetailMaster.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Intro.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Javak.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceDebitEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Columnmaster.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ItemMst.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberMaster.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Member_Opening.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PartyMaster.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProductMst.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.VillageMst.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MonthlyPosting.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Other_Income.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PostingPosting.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rate_Master.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportformnew.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Acledger.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.BalanceSheet.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdPaymentReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdReceiptReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanPaymenttReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanReceiptReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Membledger.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MonthlyReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProfitandLossAccountReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.RajinamaReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rojmed.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.StockReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TarijReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TradingAccountReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TrialBalanceReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingIntrestCalculation.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Tr.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.BankEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.JVEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.RojmalEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Danavak.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdOpening.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdPayment.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdReceipt.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.GramLaxmiFixdPayment.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.GramlaxmiFixdReceipt.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanOpeningEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanPassingEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanPayment.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmMalavakEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmPurchaseEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmSalesEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanReceipt.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberInward.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberOpeningEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberReceipt.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pra.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.RajinamaEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingPayment.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingReceipt.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Transfer.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.YearEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmReceiptEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MalavakReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Frmstocktransfer.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SalesReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.frmStockreport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmPurchaseEntryBhandar.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmSalesEntryBhandar.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmShowItem.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.RatePosting.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ReceiptReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PurchaseReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Form1.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Auth.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Core.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Drive.v3.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.PlatformServices.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Newtonsoft.Json.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.pdb
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Auth.pdb
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Auth.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Core.pdb
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Core.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Drive.v3.pdb
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Drive.v3.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\Newtonsoft.Json.xml
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\bin\Debug\ZipForge.dll
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.GSTReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberView.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Cal.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ClosingStockMaster.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ClosingStockEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmSalesEntryauto.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmSalesEntryBhandarauto.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmItemMasterBro.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmRibetCalculation.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.UpdateName.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdLedgerReport.resources
+E:\Project\brij\Kadod Mandli\backup\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe.config
+E:\Project\brij\Kadod Mandli\backup\WeightPavti\WeightPavti\obj\Debug\Interop.WMPLib.dll
+E:\Project\brij\Kadod Mandli\backup\WeightPavti\WeightPavti\obj\Debug\AxInterop.WMPLib.dll
+E:\Project\brij\Kadod Mandli\backup\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.ResolveComReference.cache
+E:\Project\brij\Kadod Mandli\backup\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+E:\Project\brij\Kadod Mandli\backup\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+E:\Project\brij\Kadod Mandli\backup\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmDashBoard.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Shareledger.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FdPaymentMultipleEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Sp.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Dashbord.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmPackingEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PackingReport.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountBalanceTransfer.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CreateNewYear.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CalculateIntrest.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Frmstocktrasfernew.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdIntrestPayment.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbprojResolveAssemblyReference.cache
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmRatePosting.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmRateEntry.resources
+E:\Project\brij\Kadod Mandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmReceiptData.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe.config
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\Interop.WMPLib.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\AxInterop.WMPLib.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.ResolveComReference.cache
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbprojResolveAssemblyReference.cache
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountBalanceTransfer.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountGrpMaster.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.AccountMaster.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmSalesEntryauto.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmSalesEntryBhandarauto.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Cal.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CalculateIntrest.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangePassword.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ChangeWorkingYear.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ClosingStockMaster.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CompanyMst.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.CreateNewYear.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Dashbord.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FdPaymentMultipleEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FInalAccountOpeningEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FinalAccountOpeningEntryBrowser.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Form1.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FreeEntri.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmDashBoard.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmItemMasterBro.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmPackingEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmRateEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmRatePosting.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmReceiptData.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmReceiptEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmRibetCalculation.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Frmstocktransfer.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Frmstocktrasfernew.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Grd.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.GSTReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HelpWin.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.HousedetailMaster.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Intro.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Javak.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Login.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceDebitEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MaintenanceEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Columnmaster.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ItemMst.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberMaster.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Member_Opening.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PartyMaster.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProductMst.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.VillageMst.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MdiMain.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberView.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MonthlyPosting.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Resources.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Other_Income.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PostingPosting.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rate_Master.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportform.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Reportformnew.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Acledger.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.BalanceSheet.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdLedgerReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdPaymentReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdReceiptReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.frmStockreport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanPaymenttReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanReceiptReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MalavakReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Membledger.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MonthlyReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PackingReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ProfitandLossAccountReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.PurchaseReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.RajinamaReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ReceiptReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Rojmed.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SalesReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Shareledger.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.StockReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TarijReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TradingAccountReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.TrialBalanceReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingIntrestCalculation.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Sp.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Tr.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.BankEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.JVEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.RojmalEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.ClosingStockEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Danavak.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdOpening.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdIntrestPayment.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdPayment.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FixdReceipt.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmPurchaseEntryBhandar.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmSalesEntryBhandar.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmShowItem.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.GramLaxmiFixdPayment.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.GramlaxmiFixdReceipt.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanOpeningEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanPassingEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanPayment.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmMalavakEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmPurchaseEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmSalesEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.LoanReceipt.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberInward.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberOpeningEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MemberReceipt.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pra.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.RajinamaEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.RatePosting.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingPayment.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.SavingReceipt.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.WeightPavtiEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.Transfer.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.UpdateName.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.YearEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.GenerateResource.Cache
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.exe
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.pdb
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\WeightPavti.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.Licensing.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu_UI_v1.52.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Shared.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Auth.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Core.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Drive.v3.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.PlatformServices.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Newtonsoft.Json.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\System.Web.Services.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\ZipForge.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\stdole.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.CrystalReports.Engine.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.ReportSource.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Shared.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\CrystalDecisions.Windows.Forms.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.pdb
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Auth.pdb
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Auth.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Core.pdb
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Core.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Drive.v3.pdb
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Drive.v3.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Newtonsoft.Json.xml
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\fr\AdvancedDataGridView.resources.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\ru\AdvancedDataGridView.resources.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Interop.WMPLib.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\AxInterop.WMPLib.dll
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmMemberMasterNew.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmMangnaEntry.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmDataTrasfer.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.OldMangnaReceipt.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.landReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MangnaReport.resources
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.MangnaReceiptReport.resources
