@@ -114,25 +114,25 @@ Public Class JVEntry
         Dim dt As New DataTable
         dt = ob.Returntable("Select * from Acdata where Docno=" & Val(Docno.Text) & " and Type='Transfer' and year_id='" & clsVariables.WorkingYear & "' and cid=" & Val(clsVariables.CompnyId) & "", ob.getconnection())
         If dt.Rows.Count > 0 Then
-            Dim result1 As DialogResult = MessageBox.Show("Do You Want to Edit?", "Important Question", MessageBoxButtons.YesNo)
+            'Dim result1 As DialogResult = MessageBox.Show("Do You Want to Edit?", "Important Question", MessageBoxButtons.YesNo)
             If dg.Rows.Count > 0 Then
                 dg.Rows.Clear()
             End If
-            If result1 = 6 Then
-                For i As Integer = 0 To dt.Rows.Count - 1
-                    dg.Rows.Add()
-                    dg.Rows(i).Cells(0).Tag = dt.Rows(i).Item("Acid")
-                    dg.Rows(i).Cells(0).Value = ob.FindOneString("select Account_name from Account_Master where Account_id=" & Val(dt.Rows(i).Item("acid")) & "", ob.getconnection())
-                    dg.Rows(dg.Rows.Count - 1).Cells(1).Tag = ob.FindOneString("select Partyid from Acmain where Billno=" & Val(Docno.Text) & " and Billtype='Transfer' and acid=" & Val(dt.Rows(i).Item("acid")) & " and year_id='" & clsVariables.WorkingYear & "'", ob.getconnection())
-                    dg.Rows(dg.Rows.Count - 1).Cells(1).Value = ob.FindOneString("select Member_Name from Member_Master where Member_id=" & Val(dg.Rows(dg.Rows.Count - 1).Cells(1).Tag) & "", ob.getconnection())
-                    dg.Rows(i).Cells(2).Value = dt.Rows(i).Item("Remarks")
-                    dg.Rows(i).Cells(3).Value = Val(dt.Rows(i).Item("Cramt"))
-                    dg.Rows(i).Cells(4).Value = Val(dt.Rows(i).Item("Dramt"))
-                    Ddate.Text = dt.Rows(i).Item("docdate")
-                Next
-                total()
-            End If
+            'If result1 = 6 Then
+            For i As Integer = 0 To dt.Rows.Count - 1
+                dg.Rows.Add()
+                dg.Rows(i).Cells(0).Tag = dt.Rows(i).Item("Acid")
+                dg.Rows(i).Cells(0).Value = ob.FindOneString("select Account_name from Account_Master where Account_id=" & Val(dt.Rows(i).Item("acid")) & "", ob.getconnection())
+                dg.Rows(dg.Rows.Count - 1).Cells(1).Tag = ob.FindOneString("select Partyid from Acmain where Billno=" & Val(Docno.Text) & " and Billtype='Transfer' and acid=" & Val(dt.Rows(i).Item("acid")) & " and year_id='" & clsVariables.WorkingYear & "'", ob.getconnection())
+                dg.Rows(dg.Rows.Count - 1).Cells(1).Value = ob.FindOneString("select Member_Name from Member_Master where Member_id=" & Val(dg.Rows(dg.Rows.Count - 1).Cells(1).Tag) & "", ob.getconnection())
+                dg.Rows(i).Cells(2).Value = dt.Rows(i).Item("Remarks")
+                dg.Rows(i).Cells(3).Value = Val(dt.Rows(i).Item("Cramt"))
+                dg.Rows(i).Cells(4).Value = Val(dt.Rows(i).Item("Dramt"))
+                Ddate.Text = dt.Rows(i).Item("docdate")
+            Next
+            total()
         End If
+        'End If
     End Sub
 
     Private Sub ButSave_Click(sender As Object, e As EventArgs) Handles ButSave.Click
@@ -211,5 +211,13 @@ Public Class JVEntry
     Private Sub Ddate_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles Ddate.Validating
         ob.validdate(sender, Ddate.Text, True)
 
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        clsVariables.Findqueri = " select docno,docdate,SUM(dramt) as dramt,sum(cramt) as cramt from acdata where   ptype='Transfer' and year_id='" & clsVariables.WorkingYear & "' group by docno,docdate order by docno"
+        clsVariables.findtablename = "Acmain"
+        FrmFind.ShowDialog()
+        Docno.Text = clsVariables.HelpId
+        Docno_Validating(Nothing, Nothing)
     End Sub
 End Class

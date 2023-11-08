@@ -23,6 +23,7 @@ Partial Class FrmMangnaEntry
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.acname = New System.Windows.Forms.TextBox()
         Me.txtcolumn = New System.Windows.Forms.TextBox()
         Me.billDt = New System.Windows.Forms.MaskedTextBox()
@@ -64,11 +65,6 @@ Partial Class FrmMangnaEntry
         Me.Column15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.dg1 = New System.Windows.Forms.DataGridView()
-        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.ButSave = New System.Windows.Forms.Button()
         Me.ButCAncel = New System.Windows.Forms.Button()
@@ -82,13 +78,12 @@ Partial Class FrmMangnaEntry
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.dg, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox3.SuspendLayout()
-        CType(Me.dg1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox4.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.acname)
         Me.GroupBox1.Controls.Add(Me.txtcolumn)
         Me.GroupBox1.Controls.Add(Me.billDt)
@@ -103,21 +98,35 @@ Partial Class FrmMangnaEntry
         Me.GroupBox1.Font = New System.Drawing.Font("HARIKRISHNA", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(8, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(383, 196)
+        Me.GroupBox1.Size = New System.Drawing.Size(1261, 92)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Black
+        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button1.Location = New System.Drawing.Point(384, 20)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(77, 28)
+        Me.Button1.TabIndex = 57
+        Me.Button1.Text = "&Find"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'acname
         '
         Me.acname.Enabled = False
-        Me.acname.Location = New System.Drawing.Point(97, 163)
+        Me.acname.Location = New System.Drawing.Point(1054, 58)
         Me.acname.Name = "acname"
-        Me.acname.Size = New System.Drawing.Size(277, 26)
+        Me.acname.Size = New System.Drawing.Size(198, 26)
         Me.acname.TabIndex = 9
         '
         'txtcolumn
         '
-        Me.txtcolumn.Location = New System.Drawing.Point(99, 124)
+        Me.txtcolumn.Location = New System.Drawing.Point(771, 57)
         Me.txtcolumn.Name = "txtcolumn"
         Me.txtcolumn.Size = New System.Drawing.Size(277, 26)
         Me.txtcolumn.TabIndex = 4
@@ -143,7 +152,7 @@ Partial Class FrmMangnaEntry
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(45, 128)
+        Me.Label4.Location = New System.Drawing.Point(731, 58)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(40, 19)
         Me.Label4.TabIndex = 6
@@ -151,7 +160,7 @@ Partial Class FrmMangnaEntry
         '
         'txtvillageid
         '
-        Me.txtvillageid.Location = New System.Drawing.Point(99, 90)
+        Me.txtvillageid.Location = New System.Drawing.Point(449, 57)
         Me.txtvillageid.Name = "txtvillageid"
         Me.txtvillageid.Size = New System.Drawing.Size(277, 26)
         Me.txtvillageid.TabIndex = 3
@@ -159,7 +168,7 @@ Partial Class FrmMangnaEntry
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(21, 95)
+        Me.Label3.Location = New System.Drawing.Point(380, 60)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(64, 19)
         Me.Label3.TabIndex = 4
@@ -215,7 +224,7 @@ Partial Class FrmMangnaEntry
         Me.GroupBox2.Controls.Add(Me.srno)
         Me.GroupBox2.Controls.Add(Me.dg)
         Me.GroupBox2.Font = New System.Drawing.Font("HARIKRISHNA", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(8, 196)
+        Me.GroupBox2.Location = New System.Drawing.Point(8, 100)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(1261, 300)
         Me.GroupBox2.TabIndex = 4
@@ -417,52 +426,13 @@ Partial Class FrmMangnaEntry
         Me.Column17.HeaderText = "n[T rkm"
         Me.Column17.Name = "Column17"
         '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.dg1)
-        Me.GroupBox3.Font = New System.Drawing.Font("HARIKRISHNA", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(397, -2)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(863, 166)
-        Me.GroupBox3.TabIndex = 8
-        Me.GroupBox3.TabStop = False
-        '
-        'dg1
-        '
-        Me.dg1.AllowUserToAddRows = False
-        Me.dg1.BackgroundColor = System.Drawing.Color.White
-        Me.dg1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dg1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.Column9, Me.Column10})
-        Me.dg1.Location = New System.Drawing.Point(6, 14)
-        Me.dg1.Name = "dg1"
-        Me.dg1.RowHeadersVisible = False
-        Me.dg1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dg1.Size = New System.Drawing.Size(851, 147)
-        Me.dg1.TabIndex = 1
-        '
-        'DataGridViewTextBoxColumn1
-        '
-        Me.DataGridViewTextBoxColumn1.HeaderText = "sBisd  ki[D"
-        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
-        '
-        'Column9
-        '
-        Me.Column9.HeaderText = "sBisd nim"
-        Me.Column9.Name = "Column9"
-        Me.Column9.Width = 200
-        '
-        'Column10
-        '
-        Me.Column10.HeaderText = "gim n&> nim"
-        Me.Column10.Name = "Column10"
-        '
         'GroupBox4
         '
         Me.GroupBox4.Controls.Add(Me.ButSave)
         Me.GroupBox4.Controls.Add(Me.ButCAncel)
         Me.GroupBox4.Controls.Add(Me.ButPrint)
         Me.GroupBox4.Controls.Add(Me.ButDelete)
-        Me.GroupBox4.Location = New System.Drawing.Point(14, 493)
+        Me.GroupBox4.Location = New System.Drawing.Point(14, 400)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(342, 54)
         Me.GroupBox4.TabIndex = 58
@@ -529,7 +499,7 @@ Partial Class FrmMangnaEntry
         Me.txtnetar.Enabled = False
         Me.txtnetar.Font = New System.Drawing.Font("HARIKRISHNA", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtnetar.ForeColor = System.Drawing.Color.Red
-        Me.txtnetar.Location = New System.Drawing.Point(442, 510)
+        Me.txtnetar.Location = New System.Drawing.Point(442, 415)
         Me.txtnetar.Name = "txtnetar"
         Me.txtnetar.Size = New System.Drawing.Size(75, 29)
         Me.txtnetar.TabIndex = 18
@@ -539,7 +509,7 @@ Partial Class FrmMangnaEntry
         Me.txtnete.Enabled = False
         Me.txtnete.Font = New System.Drawing.Font("HARIKRISHNA", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtnete.ForeColor = System.Drawing.Color.Red
-        Me.txtnete.Location = New System.Drawing.Point(521, 510)
+        Me.txtnete.Location = New System.Drawing.Point(521, 415)
         Me.txtnete.Name = "txtnete"
         Me.txtnete.Size = New System.Drawing.Size(76, 29)
         Me.txtnete.TabIndex = 19
@@ -548,7 +518,7 @@ Partial Class FrmMangnaEntry
         '
         Me.txtam.Font = New System.Drawing.Font("HARIKRISHNA", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtam.ForeColor = System.Drawing.Color.Red
-        Me.txtam.Location = New System.Drawing.Point(601, 510)
+        Me.txtam.Location = New System.Drawing.Point(601, 415)
         Me.txtam.Name = "txtam"
         Me.txtam.Size = New System.Drawing.Size(94, 29)
         Me.txtam.TabIndex = 20
@@ -557,7 +527,7 @@ Partial Class FrmMangnaEntry
         '
         Me.txtnetamt.Font = New System.Drawing.Font("HARIKRISHNA", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtnetamt.ForeColor = System.Drawing.Color.Red
-        Me.txtnetamt.Location = New System.Drawing.Point(1160, 510)
+        Me.txtnetamt.Location = New System.Drawing.Point(1160, 415)
         Me.txtnetamt.Name = "txtnetamt"
         Me.txtnetamt.Size = New System.Drawing.Size(93, 29)
         Me.txtnetamt.TabIndex = 21
@@ -566,7 +536,7 @@ Partial Class FrmMangnaEntry
         '
         Me.txtlam.Font = New System.Drawing.Font("HARIKRISHNA", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtlam.ForeColor = System.Drawing.Color.Red
-        Me.txtlam.Location = New System.Drawing.Point(958, 510)
+        Me.txtlam.Location = New System.Drawing.Point(958, 415)
         Me.txtlam.Name = "txtlam"
         Me.txtlam.Size = New System.Drawing.Size(94, 29)
         Me.txtlam.TabIndex = 59
@@ -576,13 +546,12 @@ Partial Class FrmMangnaEntry
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Pink
-        Me.ClientSize = New System.Drawing.Size(1272, 545)
+        Me.ClientSize = New System.Drawing.Size(1272, 463)
         Me.Controls.Add(Me.txtlam)
         Me.Controls.Add(Me.txtnetar)
         Me.Controls.Add(Me.txtnete)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.txtam)
-        Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.txtnetamt)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -596,8 +565,6 @@ Partial Class FrmMangnaEntry
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         CType(Me.dg, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox3.ResumeLayout(False)
-        CType(Me.dg1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox4.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -622,11 +589,6 @@ Partial Class FrmMangnaEntry
     Friend WithEvents txtare As TextBox
     Friend WithEvents txtvillagename As TextBox
     Friend WithEvents srno As TextBox
-    Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents dg1 As DataGridView
-    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column9 As DataGridViewTextBoxColumn
-    Friend WithEvents Column10 As DataGridViewTextBoxColumn
     Friend WithEvents GroupBox4 As GroupBox
     Friend WithEvents ButSave As Button
     Friend WithEvents ButCAncel As Button
@@ -661,4 +623,5 @@ Partial Class FrmMangnaEntry
     Friend WithEvents txtnetamt As TextBox
     Friend WithEvents txtlam As TextBox
     Friend WithEvents acname As TextBox
+    Friend WithEvents Button1 As Button
 End Class

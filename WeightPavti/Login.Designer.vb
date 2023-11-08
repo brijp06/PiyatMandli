@@ -198,6 +198,7 @@ Partial Class Login
         Me.cmbWorkingYear.Name = "cmbWorkingYear"
         Me.cmbWorkingYear.Size = New System.Drawing.Size(156, 23)
         Me.cmbWorkingYear.TabIndex = 4
+        Me.cmbWorkingYear.TabStop = False
         '
         'ComboSeason
         '
@@ -290,7 +291,7 @@ Partial Class Login
         Me.Panel1.Location = New System.Drawing.Point(362, 75)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(337, 188)
-        Me.Panel1.TabIndex = 27
+        Me.Panel1.TabIndex = 0
         '
         'Timer2
         '
@@ -337,7 +338,7 @@ Partial Class Login
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(247, 16)
         Me.Label12.TabIndex = 7
-        Me.Label12.Text = "Copyright © 2000 - 2022 Om Sai Infotech"
+        Me.Label12.Text = "Copyright © 2000 - 2023 Om Sai Infotech"
         '
         'Panel3
         '

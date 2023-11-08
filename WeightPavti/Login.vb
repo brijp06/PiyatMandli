@@ -107,6 +107,7 @@ Public Class Login
             My.Computer.Registry.SetValue("HKEY_CURRENT_USER\Control Panel\International", "sShortDate", "dd/MM/yyyy")
         End If
         txtuserid.Text = "admin"
+        txtpassword.Focus()
         ' txtpassword.Text = "a"
         'clsVariables.ScurrentSysDateFromate = Microsoft.Win32.Registry.GetValue("Hkey_Current_User\Control Panel\International", "sShortDate", "")
         'Microsoft.Win32.Registry.SetValue("Hkey_Current_User\Control Panel\International", "sShortDate", clsVariables.sReqSysDateFormate)
@@ -123,7 +124,7 @@ Public Class Login
         If cmbCompany.Items.Count > 0 Then
             cmbCompany.Text = cmbCompany.Items(0)
         End If
-        txtpassword.Focus()
+
 
         'ob.CreateDSN("Assdsn", dbname)
     End Sub
@@ -277,5 +278,33 @@ p:
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
 
+    End Sub
+
+    Private Sub Login_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
+
+    End Sub
+
+    Private Sub txtuserid_KeyDown(sender As Object, e As KeyEventArgs) Handles txtuserid.KeyDown, txtpassword.KeyDown
+        If e.KeyCode = Keys.Enter Then
+
+            SendKeys.Send("{Tab}")
+
+        End If
+    End Sub
+
+    Private Sub cmbWorkingYear_KeyDown(sender As Object, e As KeyEventArgs) Handles cmbWorkingYear.KeyDown
+
+        If e.KeyCode = Keys.Enter Then
+
+            ButLogin.Focus()
+
+        End If
+    End Sub
+
+    Private Sub btnlogin_KeyDown(sender As Object, e As KeyEventArgs) Handles btnlogin.KeyDown
+        If e.KeyCode = Keys.Enter Then
+
+            btnlogin_Click(Nothing, Nothing)
+        End If
     End Sub
 End Class

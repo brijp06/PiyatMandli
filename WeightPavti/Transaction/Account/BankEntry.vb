@@ -117,61 +117,64 @@ Public Class BankEntry
         Dim dt As New DataTable
         dt = ob.Returntable("Select * from Acdata where Docno=" & Val(Docno.Text) & " and Type='" & Trim(cmbtype.Text) & "' and year_id='" & clsVariables.WorkingYear & "' and cid=" & Val(clsVariables.CompnyId) & "", ob.getconnection())
         If dt.Rows.Count > 0 Then
-            Dim result1 As DialogResult = MessageBox.Show("Do You Want to Edit?", "Important Question", MessageBoxButtons.YesNo)
-            If result1 = 6 Then
-                For i As Integer = 0 To dt.Rows.Count - 1
-                    If Trim(cmbtype.Text) = "Bank Receipt" Then
-                        If Val(dt.Rows(i).Item("Dramt")) <> 0 Then
-                            Drac.Tag = dt.Rows(i).Item("acid")
-                            Drac.Text = ob.FindOneString("select Account_name from Account_Master where Account_id=" & Val(Drac.Tag) & "", ob.getconnection())
-                            Ddate.Text = dt.Rows(i).Item("docdate")
-                        Else
-                            dg.Rows.Add()
-                            dg.Rows(dg.Rows.Count - 1).Cells(0).Tag = dt.Rows(i).Item("acid")
-                            dg.Rows(dg.Rows.Count - 1).Cells(0).Value = ob.FindOneString("select Account_name from Account_Master where Account_id=" & Val(dt.Rows(i).Item("acid")) & "", ob.getconnection())
-                            dg.Rows(dg.Rows.Count - 1).Cells(1).Tag = ob.FindOneString("select Partyid from Acmain where Billno=" & Val(Docno.Text) & " and Billtype='" & Trim(cmbtype.Text) & "' and acid=" & Val(dt.Rows(i).Item("acid")) & " and year_id='" & clsVariables.WorkingYear & "'", ob.getconnection())
-                            dg.Rows(dg.Rows.Count - 1).Cells(1).Value = ob.FindOneString("select Member_Name from Member_Master where Member_id=" & Val(dg.Rows(dg.Rows.Count - 1).Cells(1).Tag) & "", ob.getconnection())
-                            dg.Rows(dg.Rows.Count - 1).Cells(2).Value = dt.Rows(i).Item("Remarks")
-                            dg.Rows(dg.Rows.Count - 1).Cells(3).Value = dt.Rows(i).Item("Cramt")
-                            dg.Rows(dg.Rows.Count - 1).Cells(0).Style.Font = New Font("shruti", 10, FontStyle.Regular)
-                            dg.Rows(dg.Rows.Count - 1).Cells(1).Style.Font = New Font("shruti", 10, FontStyle.Regular)
-                            dg.Rows(dg.Rows.Count - 1).Cells(2).Style.Font = New Font("shruti", 10, FontStyle.Regular)
-                            dg.Rows(dg.Rows.Count - 1).Cells(3).Style.Font = New Font("HARIKRISHNA", 12, FontStyle.Regular)
-                            dg.AlternatingRowsDefaultCellStyle.BackColor = Color.Lavender
-                        End If
-                    Else
-                        If Val(dt.Rows(i).Item("Dramt")) = 0 Then
-                            Drac.Tag = dt.Rows(i).Item("acid")
-                            Drac.Text = ob.FindOneString("select Account_name from Account_Master where Account_id=" & Val(Drac.Tag) & "", ob.getconnection())
-                            Ddate.Text = dt.Rows(i).Item("docdate")
-                        Else
-                            'dg.Rows.Add()
-                            'dg.Rows(dg.Rows.Count - 1).Cells(0).Tag = dt.Rows(i).Item("acid")
-                            'dg.Rows(dg.Rows.Count - 1).Cells(0).Value = ob.FindOneString("select Account_name from Account_Master where Account_id=" & Val(dt.Rows(i).Item("acid")) & "", ob.getconnection())
-                            'dg.Rows(dg.Rows.Count - 1).Cells(1).Value = dt.Rows(i).Item("Remarks")
-                            'dg.Rows(dg.Rows.Count - 1).Cells(2).Value = dt.Rows(i).Item("Dramt")
-                            'dg.Rows(dg.Rows.Count - 1).Cells(0).Style.Font = New Font("shruti", 10, FontStyle.Regular)
-                            'dg.Rows(dg.Rows.Count - 1).Cells(1).Style.Font = New Font("shruti", 10, FontStyle.Regular)
-                            'dg.Rows(dg.Rows.Count - 1).Cells(2).Style.Font = New Font("HARIKRISHNA", 12, FontStyle.Regular)
-                            'dg.AlternatingRowsDefaultCellStyle.BackColor = Color.Lavender
-                            dg.Rows.Add()
-                            dg.Rows(dg.Rows.Count - 1).Cells(0).Tag = dt.Rows(i).Item("acid")
-                            dg.Rows(dg.Rows.Count - 1).Cells(0).Value = ob.FindOneString("select Account_name from Account_Master where Account_id=" & Val(dt.Rows(i).Item("acid")) & "", ob.getconnection())
-                            dg.Rows(dg.Rows.Count - 1).Cells(1).Tag = ob.FindOneString("select Partyid from Acmain where Billno=" & Val(Docno.Text) & " and Billtype='" & Trim(cmbtype.Text) & "' and acid=" & Val(dt.Rows(i).Item("acid")) & " and year_id='" & clsVariables.WorkingYear & "'", ob.getconnection())
-                            dg.Rows(dg.Rows.Count - 1).Cells(1).Value = ob.FindOneString("select Member_Name from Member_Master where Member_id=" & Val(dg.Rows(dg.Rows.Count - 1).Cells(1).Tag) & "", ob.getconnection())
-                            dg.Rows(dg.Rows.Count - 1).Cells(2).Value = dt.Rows(i).Item("Remarks")
-                            dg.Rows(dg.Rows.Count - 1).Cells(3).Value = dt.Rows(i).Item("Dramt")
-                            dg.Rows(dg.Rows.Count - 1).Cells(0).Style.Font = New Font("shruti", 10, FontStyle.Regular)
-                            dg.Rows(dg.Rows.Count - 1).Cells(1).Style.Font = New Font("shruti", 10, FontStyle.Regular)
-                            dg.Rows(dg.Rows.Count - 1).Cells(2).Style.Font = New Font("shruti", 10, FontStyle.Regular)
-                            dg.Rows(dg.Rows.Count - 1).Cells(3).Style.Font = New Font("HARIKRISHNA", 12, FontStyle.Regular)
-                            dg.AlternatingRowsDefaultCellStyle.BackColor = Color.Lavender
-                        End If
-                    End If
-                Next
-                total()
+            If dg.Rows.Count > 0 Then
+                dg.Rows.Clear()
             End If
+            'Dim result1 As DialogResult = MessageBox.Show("Do You Want to Edit?", "Important Question", MessageBoxButtons.YesNo)
+            'If result1 = 6 Then
+            For i As Integer = 0 To dt.Rows.Count - 1
+                If Trim(cmbtype.Text) = "Bank Receipt" Then
+                    If Val(dt.Rows(i).Item("Dramt")) <> 0 Then
+                        Drac.Tag = dt.Rows(i).Item("acid")
+                        Drac.Text = ob.FindOneString("select Account_name from Account_Master where Account_id=" & Val(Drac.Tag) & "", ob.getconnection())
+                        Ddate.Text = dt.Rows(i).Item("docdate")
+                    Else
+                        dg.Rows.Add()
+                        dg.Rows(dg.Rows.Count - 1).Cells(0).Tag = dt.Rows(i).Item("acid")
+                        dg.Rows(dg.Rows.Count - 1).Cells(0).Value = ob.FindOneString("select Account_name from Account_Master where Account_id=" & Val(dt.Rows(i).Item("acid")) & "", ob.getconnection())
+                        dg.Rows(dg.Rows.Count - 1).Cells(1).Tag = ob.FindOneString("select Partyid from Acmain where Billno=" & Val(Docno.Text) & " and Billtype='" & Trim(cmbtype.Text) & "' and acid=" & Val(dt.Rows(i).Item("acid")) & " and year_id='" & clsVariables.WorkingYear & "'", ob.getconnection())
+                        dg.Rows(dg.Rows.Count - 1).Cells(1).Value = ob.FindOneString("select Member_Name from Member_Master where Member_id=" & Val(dg.Rows(dg.Rows.Count - 1).Cells(1).Tag) & "", ob.getconnection())
+                        dg.Rows(dg.Rows.Count - 1).Cells(2).Value = dt.Rows(i).Item("Remarks")
+                        dg.Rows(dg.Rows.Count - 1).Cells(3).Value = dt.Rows(i).Item("Cramt")
+                        dg.Rows(dg.Rows.Count - 1).Cells(0).Style.Font = New Font("shruti", 10, FontStyle.Regular)
+                        dg.Rows(dg.Rows.Count - 1).Cells(1).Style.Font = New Font("shruti", 10, FontStyle.Regular)
+                        dg.Rows(dg.Rows.Count - 1).Cells(2).Style.Font = New Font("shruti", 10, FontStyle.Regular)
+                        dg.Rows(dg.Rows.Count - 1).Cells(3).Style.Font = New Font("HARIKRISHNA", 12, FontStyle.Regular)
+                        dg.AlternatingRowsDefaultCellStyle.BackColor = Color.Lavender
+                    End If
+                Else
+                    If Val(dt.Rows(i).Item("Dramt")) = 0 Then
+                        Drac.Tag = dt.Rows(i).Item("acid")
+                        Drac.Text = ob.FindOneString("select Account_name from Account_Master where Account_id=" & Val(Drac.Tag) & "", ob.getconnection())
+                        Ddate.Text = dt.Rows(i).Item("docdate")
+                    Else
+                        'dg.Rows.Add()
+                        'dg.Rows(dg.Rows.Count - 1).Cells(0).Tag = dt.Rows(i).Item("acid")
+                        'dg.Rows(dg.Rows.Count - 1).Cells(0).Value = ob.FindOneString("select Account_name from Account_Master where Account_id=" & Val(dt.Rows(i).Item("acid")) & "", ob.getconnection())
+                        'dg.Rows(dg.Rows.Count - 1).Cells(1).Value = dt.Rows(i).Item("Remarks")
+                        'dg.Rows(dg.Rows.Count - 1).Cells(2).Value = dt.Rows(i).Item("Dramt")
+                        'dg.Rows(dg.Rows.Count - 1).Cells(0).Style.Font = New Font("shruti", 10, FontStyle.Regular)
+                        'dg.Rows(dg.Rows.Count - 1).Cells(1).Style.Font = New Font("shruti", 10, FontStyle.Regular)
+                        'dg.Rows(dg.Rows.Count - 1).Cells(2).Style.Font = New Font("HARIKRISHNA", 12, FontStyle.Regular)
+                        'dg.AlternatingRowsDefaultCellStyle.BackColor = Color.Lavender
+                        dg.Rows.Add()
+                        dg.Rows(dg.Rows.Count - 1).Cells(0).Tag = dt.Rows(i).Item("acid")
+                        dg.Rows(dg.Rows.Count - 1).Cells(0).Value = ob.FindOneString("select Account_name from Account_Master where Account_id=" & Val(dt.Rows(i).Item("acid")) & "", ob.getconnection())
+                        dg.Rows(dg.Rows.Count - 1).Cells(1).Tag = ob.FindOneString("select Partyid from Acmain where Billno=" & Val(Docno.Text) & " and Billtype='" & Trim(cmbtype.Text) & "' and acid=" & Val(dt.Rows(i).Item("acid")) & " and year_id='" & clsVariables.WorkingYear & "'", ob.getconnection())
+                        dg.Rows(dg.Rows.Count - 1).Cells(1).Value = ob.FindOneString("select Member_Name from Member_Master where Member_id=" & Val(dg.Rows(dg.Rows.Count - 1).Cells(1).Tag) & "", ob.getconnection())
+                        dg.Rows(dg.Rows.Count - 1).Cells(2).Value = dt.Rows(i).Item("Remarks")
+                        dg.Rows(dg.Rows.Count - 1).Cells(3).Value = dt.Rows(i).Item("Dramt")
+                        dg.Rows(dg.Rows.Count - 1).Cells(0).Style.Font = New Font("shruti", 10, FontStyle.Regular)
+                        dg.Rows(dg.Rows.Count - 1).Cells(1).Style.Font = New Font("shruti", 10, FontStyle.Regular)
+                        dg.Rows(dg.Rows.Count - 1).Cells(2).Style.Font = New Font("shruti", 10, FontStyle.Regular)
+                        dg.Rows(dg.Rows.Count - 1).Cells(3).Style.Font = New Font("HARIKRISHNA", 12, FontStyle.Regular)
+                        dg.AlternatingRowsDefaultCellStyle.BackColor = Color.Lavender
+                    End If
+                End If
+            Next
+            total()
         End If
+        'End If
     End Sub
 
     Private Sub ButSave_Click(sender As Object, e As EventArgs) Handles ButSave.Click
@@ -286,5 +289,20 @@ Public Class BankEntry
     Private Sub Ddate_Validated(sender As Object, e As EventArgs) Handles Ddate.Validated
         ob.validdate(sender, Ddate.Text, True)
 
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim ssl As String = ""
+        If cmbtype.Text = "Bank Receipt" Then
+            ssl = "select docno,docdate,ACid,Acname,Remarks,dramt,cramt from acdata where  dramt<>0 and ptype='" & cmbtype.Text & "' and year_id='" & clsVariables.WorkingYear & "' order by docno"
+        Else
+            ssl = "select docno,docdate,ACid,Acname,Remarks,dramt,cramt from acdata where  dramt=0 and ptype='" & cmbtype.Text & "' and year_id='" & clsVariables.WorkingYear & "' order by docno"
+        End If
+        clsVariables.Findqueri = ssl
+        clsVariables.findtablename = "Acmain"
+        FrmFind.ShowDialog()
+        Docno.Text = clsVariables.HelpId
+        Docno_Validated(Nothing, Nothing)
+        'txtDocNo_Validated(Nothing, Nothing)
     End Sub
 End Class

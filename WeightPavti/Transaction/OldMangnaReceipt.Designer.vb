@@ -67,6 +67,7 @@ Partial Class OldMangnaReceipt
         Me.lbldate = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.DG1 = New System.Windows.Forms.DataGridView()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -77,6 +78,7 @@ Partial Class OldMangnaReceipt
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.Cmbdepartment)
         Me.GroupBox1.Controls.Add(Me.txtdisamt)
         Me.GroupBox1.Controls.Add(Me.netamt)
@@ -552,6 +554,20 @@ Partial Class OldMangnaReceipt
         Me.DG1.Size = New System.Drawing.Size(10, 163)
         Me.DG1.TabIndex = 0
         '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Black
+        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button1.Location = New System.Drawing.Point(238, 16)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(77, 28)
+        Me.Button1.TabIndex = 58
+        Me.Button1.Text = "&Find"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'OldMangnaReceipt
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -624,4 +640,5 @@ Partial Class OldMangnaReceipt
     Friend WithEvents intamt As TextBox
     Friend WithEvents Billamt As TextBox
     Friend WithEvents Cmbdepartment As ComboBox
+    Friend WithEvents Button1 As Button
 End Class

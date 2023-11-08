@@ -1198,4 +1198,17 @@ Public Class RojmalEntry
     Private Sub Ddate_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles Ddate.Validating
         ob.validdate(sender, Ddate.Text, True)
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        clsVariables.Findqueri = "select docno,docdate,ACid,Acname,Remarks,dramt,cramt from acdata where  acid<>9941 and ptype='" & cmbtype.Text & "' and year_id='" & clsVariables.WorkingYear & "' order by docno"
+        clsVariables.findtablename = "Acmain"
+        FrmFind.ShowDialog()
+        Docno.Text = clsVariables.HelpId
+        txtDocNo_Validated(Nothing, Nothing)
+        'filldata(Val(Billno.Text))
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs)
+
+    End Sub
 End Class

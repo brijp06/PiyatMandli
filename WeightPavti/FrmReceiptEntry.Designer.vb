@@ -82,6 +82,7 @@ Partial Class FrmReceiptEntry
         Me.ButCAncel = New System.Windows.Forms.Button()
         Me.ButPrint = New System.Windows.Forms.Button()
         Me.ButDelete = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.dg, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -90,6 +91,7 @@ Partial Class FrmReceiptEntry
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Button4)
         Me.GroupBox1.Controls.Add(Me.txtintrest)
         Me.GroupBox1.Controls.Add(Me.txtdisamt)
         Me.GroupBox1.Controls.Add(Me.Label8)
@@ -221,9 +223,9 @@ Partial Class FrmReceiptEntry
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button3.Location = New System.Drawing.Point(589, 15)
+        Me.Button3.Location = New System.Drawing.Point(673, 160)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(10, 18)
+        Me.Button3.Size = New System.Drawing.Size(9, 15)
         Me.Button3.TabIndex = 295
         Me.Button3.TabStop = False
         Me.Button3.Text = "Get Receipt Data"
@@ -678,6 +680,20 @@ Partial Class FrmReceiptEntry
         Me.ButDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.ButDelete.UseVisualStyleBackColor = True
         '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.Black
+        Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button4.Location = New System.Drawing.Point(605, 14)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(85, 28)
+        Me.Button4.TabIndex = 55592
+        Me.Button4.Text = "&Find"
+        Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button4.UseVisualStyleBackColor = True
+        '
         'FrmReceiptEntry
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -761,4 +777,5 @@ Partial Class FrmReceiptEntry
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
     Friend WithEvents Column7 As DataGridViewTextBoxColumn
     Friend WithEvents Column9 As DataGridViewTextBoxColumn
+    Friend WithEvents Button4 As Button
 End Class

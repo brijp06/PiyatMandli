@@ -14,9 +14,12 @@ Public Class FrmMangnaEntry
         TxtFill("Select member_name from member_master", txtname)
         TxtFill("Select name from itemgroup", txtcolumn)
         Billno.Text = ob.FindOneString("Select isnull(max(Billno),0)+1 from Acmain Where Year_id='" & clsVariables.WorkingYear & "'  and ptype='Mangna'", ob.getconnection())
-        acname.Tag = 22
+        acname.Tag = 15
         acname.Text = ob.FindOneString("select Account_name from Account_master Where Account_id=" & acname.Tag & "", ob.getconnection())
+        Dim msk As String = billDt.Mask
         billDt.Text = Now
+        billDt.Refresh()
+        billDt.Mask = msk
         srno.Text = 1
     End Sub
 
@@ -128,8 +131,8 @@ Public Class FrmMangnaEntry
     Public Sub filldata(ByVal membid As Integer)
         Dim dt As DataTable = ob.Returntable("select * from acmain where billno=" & Val(Billno.Text) & " and ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
         If dt.Rows.Count > 0 Then
-            If MessageBox.Show("Do You Want To Edit This Entry...?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
-                Billno.Text = membid
+            ' If MessageBox.Show("Do You Want To Edit This Entry...?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
+            Billno.Text = membid
                 txtname.Tag = dt.Rows(0).Item("partyid")
                 txtname.Text = ob.FindOneString("select member_name from Member_master where member_id=" & Val(dt.Rows(0).Item("partyid")) & "", ob.getconnection())
                 txtvillageid.Tag = dt.Rows(0).Item("clid")
@@ -139,26 +142,30 @@ Public Class FrmMangnaEntry
                     txtcolumn.Text = ob.FindOneString("select name from itemgroup where  code=" & Val(txtcolumn.Tag) & "", ob.getconnection())
                 End If
                 acname.Enabled = False
-                Dim dts As DataTable = ob.Returntable("select * from acstock where billno=" & Val(Billno.Text) & " and ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
-                For i As Integer = 0 To dts.Rows.Count - 1
-                    dg.Rows.Add()
-                    dg.Rows(i).Cells(0).Value = Val(dts.Rows(i).Item("srno"))
-                    dg.Rows(i).Cells(1).Tag = Val(dts.Rows(i).Item("Itemid"))
-                    dg.Rows(i).Cells(1).Value = ob.FindOneString("select village_name from village_master where  village_id=" & Val(dts.Rows(i).Item("Itemid")) & "", ob.getconnection())
-                    dg.Rows(i).Cells(2).Value = Val(dts.Rows(i).Item("blockNo"))
-                    dg.Rows(i).Cells(3).Value = Val(dts.Rows(i).Item("ServeNo"))
-                    dg.Rows(i).Cells(4).Value = Val(dts.Rows(i).Item("Hektar"))
-                    dg.Rows(i).Cells(5).Value = Val(dts.Rows(i).Item("Guntha"))
-                    dg.Rows(i).Cells(6).Value = Val(dts.Rows(i).Item("Aker"))
-                    dg.Rows(i).Cells(7).Value = Val(dts.Rows(i).Item("AHektar"))
-                    dg.Rows(i).Cells(8).Value = Val(dts.Rows(i).Item("AGuntha"))
-                    dg.Rows(i).Cells(9).Value = Val(dts.Rows(i).Item("Rate1"))
-                    dg.Rows(i).Cells(10).Value = Val(dts.Rows(i).Item("Amount"))
-                    dg.Rows(i).Cells(11).Value = Val(dts.Rows(i).Item("LPer"))
-                    dg.Rows(i).Cells(12).Value = Val(dts.Rows(i).Item("LFund"))
-                    dg.Rows(i).Cells(13).Value = Val(dts.Rows(i).Item("TotalAmount"))
-                Next
+            Dim dts As DataTable = ob.Returntable("select * from acstock where billno=" & Val(Billno.Text) & " and ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
+            If dg.Rows.Count > 0 Then
+                dg.Rows.Clear()
             End If
+            For i As Integer = 0 To dts.Rows.Count - 1
+                dg.Rows.Add()
+                dg.Rows(i).Cells(0).Value = Val(dts.Rows(i).Item("srno"))
+                dg.Rows(i).Cells(1).Tag = Val(dts.Rows(i).Item("Itemid"))
+                dg.Rows(i).Cells(1).Value = ob.FindOneString("select village_name from village_master where  village_id=" & Val(dts.Rows(i).Item("Itemid")) & "", ob.getconnection())
+                dg.Rows(i).Cells(2).Value = Val(dts.Rows(i).Item("blockNo"))
+                dg.Rows(i).Cells(3).Value = Val(dts.Rows(i).Item("ServeNo"))
+                dg.Rows(i).Cells(4).Value = Val(dts.Rows(i).Item("Hektar"))
+                dg.Rows(i).Cells(5).Value = Val(dts.Rows(i).Item("Guntha"))
+                dg.Rows(i).Cells(6).Value = Val(dts.Rows(i).Item("Aker"))
+                dg.Rows(i).Cells(7).Value = Val(dts.Rows(i).Item("AHektar"))
+                dg.Rows(i).Cells(8).Value = Val(dts.Rows(i).Item("AGuntha"))
+                dg.Rows(i).Cells(9).Value = Val(dts.Rows(i).Item("Rate1"))
+                dg.Rows(i).Cells(10).Value = Val(dts.Rows(i).Item("Amount"))
+                dg.Rows(i).Cells(11).Value = Val(dts.Rows(i).Item("LPer"))
+                dg.Rows(i).Cells(12).Value = Val(dts.Rows(i).Item("LFund"))
+                dg.Rows(i).Cells(13).Value = Val(dts.Rows(i).Item("TotalAmount"))
+            Next
+            cal()
+            'End If
         End If
     End Sub
 
@@ -206,9 +213,7 @@ Public Class FrmMangnaEntry
         If dg.Rows.Count > 0 Then
             dg.Rows.Clear()
         End If
-        If dg1.Rows.Count > 0 Then
-            dg1.Rows.Clear()
-        End If
+
         'Dim dt As DataTable = ob.Returntable("select * from member_master order by member_id", ob.getconnection())
         'For i As Integer = 0 To dt.Rows.Count - 1
         '    dg1.Rows.Add()
@@ -335,5 +340,13 @@ Public Class FrmMangnaEntry
 
     Private Sub txtcolumn_Validated(sender As Object, e As EventArgs) Handles txtcolumn.Validated
 
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        clsVariables.Findqueri = "select billno,billdate,PartyId,m.member_name as membername,Netamt from Acmain as a inner join MEMBER_MASTER as m on a.PartyId=m.Member_Id where year_id='" & clsVariables.WorkingYear & "' and ptype='Mangna' order by billno"
+        clsVariables.findtablename = "Acmain"
+        FrmFind.ShowDialog()
+        Billno.Text = clsVariables.HelpId
+        filldata(Val(Billno.Text))
     End Sub
 End Class

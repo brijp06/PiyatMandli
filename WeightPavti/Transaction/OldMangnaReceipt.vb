@@ -229,9 +229,9 @@ Public Class OldMangnaReceipt
     Private Sub Billno_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles Billno.Validating
         Dim dt As DataTable = ob.Returntable("select * from acmain where billno=" & Val(Billno.Text) & "  and Department='" & Trim(Cmbdepartment.Text) & "' and ptype='OReceipt' and year_id='" & clsVariables.WorkingYear & "'", ob.getconnection())
         If dt.Rows.Count > 0 Then
-            If MessageBox.Show("Do You Want To Edit This Entry...?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
+            'If MessageBox.Show("Do You Want To Edit This Entry...?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
 
-                billDt.Text = dt.Rows(0).Item("Billdate")
+            billDt.Text = dt.Rows(0).Item("Billdate")
                 sname.Tag = dt.Rows(0).Item("partyid")
                 sname.Text = ob.FindOneString("select Member_name from Member_Master where Member_id=" & dt.Rows(0).Item("partyid") & "", ob.getconnection())
                 cmbtype.Text = dt.Rows(0).Item("Billtype")
@@ -255,8 +255,8 @@ Public Class OldMangnaReceipt
                 payac.Tag = dt.Rows(0).Item("cbj")
                 payac.Text = ob.FindOneString("Select Account_Name From Account_Master Where Account_Id=" & Val(payac.Tag) & "", ob.getconnection())
                 acname.Enabled = False
-                'loaddgdate()
-            End If
+            'loaddgdate()
+            'End If
         End If
     End Sub
     Public Sub getalldata()
@@ -470,5 +470,13 @@ Public Class OldMangnaReceipt
 
     Private Sub intamt_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles intamt.Validating
         cal()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        clsVariables.Findqueri = "select billno,billdate,PartyId,m.member_name as membername,Netamt from Acmain as a inner join MEMBER_MASTER as m on a.PartyId=m.Member_Id where year_id='" & clsVariables.WorkingYear & "' and ptype='OReceipt' order by billno"
+        clsVariables.findtablename = "Acmain"
+        FrmFind.ShowDialog()
+        Billno.Text = clsVariables.HelpId
+        Billno_Validating(Nothing, Nothing)
     End Sub
 End Class

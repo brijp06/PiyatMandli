@@ -167,7 +167,7 @@ Public Class TarijReport
         '    Next
         'End If
 
-        dClosingBalance = ob.FindOneString("Select isnull(sum(Cramt),0)-isnull(sum(Dramt),0) from tmpACData where Docdate<='" & ob.DateConversion(TxtToDate.Text) & "' and acid in (149)", ob.getconnection())
+        dClosingBalance = ob.FindOneString("Select isnull(sum(Cramt),0)-isnull(sum(Dramt),0) from tmpACData where Docdate<='" & ob.DateConversion(TxtToDate.Text) & "' and acid in (9941)", ob.getconnection())
 
         clsVariables.dClosingBal = Math.Abs(dClosingBalance)
         clsVariables.dOpeningBal = dOpeningBalance

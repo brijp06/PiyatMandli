@@ -16,6 +16,11 @@ Public Class landReport
 
         dg1.Columns.Add("", "")
         Panel1.Visible = False
+        Dg.Items(0).Selected = True
+        Dg.Items(0).Focused = True
+        'Dg.Focus()
+        Button1.Focus()
+
         'item.SubItems.Add("")
         'item.SubItems(1).Text = ""
 
@@ -185,6 +190,12 @@ Public Class landReport
         Membname.Tag = ob.FindOneString("Select Member_Id From Member_Master Where Member_Name=N'" & Trim(Membname.Text) & "' or Member_Id=" & Val(Membname.Text) & "", ob.getconnection())
         If Val(Membname.Tag) <> 0 Then
             Membname.Text = ob.FindOneString("Select Member_Name From Member_Master Where  Member_Id=" & Val(Membname.Tag) & "", ob.getconnection())
+        End If
+    End Sub
+
+    Private Sub Dg_KeyDown_1(sender As Object, e As KeyEventArgs) Handles Dg.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            SendKeys.Send("{Tab}")
         End If
     End Sub
 End Class

@@ -54,6 +54,7 @@ Partial Class BankEntry
         Me.ButCAncel = New System.Windows.Forms.Button()
         Me.ButPrint = New System.Windows.Forms.Button()
         Me.ButDelete = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -63,6 +64,7 @@ Partial Class BankEntry
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Drac)
         Me.GroupBox1.Controls.Add(Me.Ddate)
@@ -393,6 +395,20 @@ Partial Class BankEntry
         Me.ButDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.ButDelete.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Black
+        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button1.Location = New System.Drawing.Point(439, 48)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(77, 28)
+        Me.Button1.TabIndex = 58
+        Me.Button1.Text = "&Find"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'BankEntry
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -450,4 +466,5 @@ Partial Class BankEntry
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents dtotal As TextBox
+    Friend WithEvents Button1 As Button
 End Class

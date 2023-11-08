@@ -54,7 +54,7 @@ Partial Class landReport
         Me.GroupBox1.Location = New System.Drawing.Point(6, 5)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(370, 131)
-        Me.GroupBox1.TabIndex = 0
+        Me.GroupBox1.TabIndex = 25
         Me.GroupBox1.TabStop = False
         '
         'Dg
@@ -77,7 +77,7 @@ Partial Class landReport
         Me.Button1.Location = New System.Drawing.Point(142, 175)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(85, 35)
-        Me.Button1.TabIndex = 5
+        Me.Button1.TabIndex = 0
         Me.Button1.Text = "Show"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -274,6 +274,7 @@ Partial Class landReport
         Me.Controls.Add(Me.TxtfromDate)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.GroupBox1)
+        Me.KeyPreview = True
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "landReport"

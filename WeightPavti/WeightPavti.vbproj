@@ -492,6 +492,12 @@
     <Compile Include="FrmDataTrasfer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmFind.Designer.vb">
+      <DependentUpon>FrmFind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFind.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmItemMasterBro.Designer.vb">
       <DependentUpon>FrmItemMasterBro.vb</DependentUpon>
     </Compile>
@@ -1175,6 +1181,9 @@
     <EmbeddedResource Include="FrmDataTrasfer.resx">
       <DependentUpon>FrmDataTrasfer.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmFind.resx">
+      <DependentUpon>FrmFind.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmItemMasterBro.resx">
       <DependentUpon>FrmItemMasterBro.vb</DependentUpon>
     </EmbeddedResource>
@@ -1552,6 +1561,7 @@
     <Content Include="Resources\BLogin.JPG" />
     <None Include="Resources\blue-icon-computer-icons-user-login-desktop-others-png-clip-art-thumbnail.png" />
     <Content Include="Resources\blurred_colors-wide.jpg" />
+    <None Include="Resources\button_search_active.png" />
     <Content Include="Resources\Cancel.png" />
     <Content Include="Resources\close.png" />
     <None Include="packages.config" />
@@ -1572,6 +1582,7 @@
     <None Include="Resources\loading.gif" />
     <None Include="Resources\loader1.gif" />
     <None Include="Resources\loader11.gif" />
+    <None Include="Resources\icons8-google-web-search-50.png" />
     <Content Include="Resources\loadingRed.gif" />
     <Content Include="Resources\loading_animation.gif" />
     <None Include="Resources\login-form-20-1.jpg" />

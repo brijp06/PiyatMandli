@@ -18,7 +18,8 @@ Namespace CLS
         Public Shared RojmalBankLoan As String
         Public Shared ScurrentSysDateFromate
         Public Shared sReqSysDateFormate = "MM/dd/yyyy"
-
+        Public Shared Findqueri As String
+        Public Shared findtablename As String
         Public Shared PassAccId As Integer
         Public Shared PassAccName As String
         'Public Shared CalcInt As Integer

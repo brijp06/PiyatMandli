@@ -68,20 +68,20 @@ Public Class FrmReceiptEntry
             Dim dt As DataTable = ob.Returntable("select * from receipt where partyid=" & Val(Cname.Tag) & " and docno=" & Val(dts.Rows(i).Item("billno")) & " and receiptyear='" & Trim(dts.Rows(i).Item("year_id")) & "'", ob.getconnection())
             If dt.Rows.Count = 0 Then
                 dg.Rows.Add()
-                dg.Rows(i).Cells(0).Value = Val(dts.Rows(i).Item("srno"))
-                dg.Rows(i).Cells(1).Tag = Val(dts.Rows(i).Item("Itemid"))
-                dg.Rows(i).Cells(1).Value = ob.FindOneString("select village_name from village_master where  village_id=" & Val(dts.Rows(i).Item("Itemid")) & "", ob.getconnection())
-                dg.Rows(i).Cells(2).Value = Val(dts.Rows(i).Item("blockNo"))
-                dg.Rows(i).Cells(3).Value = Val(dts.Rows(i).Item("ServeNo"))
-                dg.Rows(i).Cells(4).Value = Val(dts.Rows(i).Item("AHektar"))
-                dg.Rows(i).Cells(5).Value = Val(dts.Rows(i).Item("AGuntha"))
-                dg.Rows(i).Cells(6).Value = Val(dts.Rows(i).Item("Amount"))
-                dg.Rows(i).Cells(7).Value = Val(dts.Rows(i).Item("LFund"))
-                dg.Rows(i).Cells(8).Value = Val(dts.Rows(i).Item("TotalAmount"))
-                dg.Rows(i).Cells(10).Value = Val(dts.Rows(i).Item("billno"))
-                dg.Rows(i).Cells(11).Value = Val(dts.Rows(i).Item("clid"))
-                dg.Rows(i).Cells(12).Value = Val(dts.Rows(i).Item("Tid"))
-                dg.Rows(i).Cells(13).Value = Trim(dts.Rows(i).Item("year_id"))
+                dg.Rows(dg.Rows.Count - 1).Cells(0).Value = Val(dts.Rows(i).Item("srno"))
+                dg.Rows(dg.Rows.Count - 1).Cells(1).Tag = Val(dts.Rows(i).Item("Itemid"))
+                dg.Rows(dg.Rows.Count - 1).Cells(1).Value = ob.FindOneString("select village_name from village_master where  village_id=" & Val(dts.Rows(i).Item("Itemid")) & "", ob.getconnection())
+                dg.Rows(dg.Rows.Count - 1).Cells(2).Value = Val(dts.Rows(i).Item("blockNo"))
+                dg.Rows(dg.Rows.Count - 1).Cells(3).Value = Val(dts.Rows(i).Item("ServeNo"))
+                dg.Rows(dg.Rows.Count - 1).Cells(4).Value = Val(dts.Rows(i).Item("AHektar"))
+                dg.Rows(dg.Rows.Count - 1).Cells(5).Value = Val(dts.Rows(i).Item("AGuntha"))
+                dg.Rows(dg.Rows.Count - 1).Cells(6).Value = Val(dts.Rows(i).Item("Amount"))
+                dg.Rows(dg.Rows.Count - 1).Cells(7).Value = Val(dts.Rows(i).Item("LFund"))
+                dg.Rows(dg.Rows.Count - 1).Cells(8).Value = Val(dts.Rows(i).Item("TotalAmount"))
+                dg.Rows(dg.Rows.Count - 1).Cells(10).Value = Val(dts.Rows(i).Item("billno"))
+                dg.Rows(dg.Rows.Count - 1).Cells(11).Value = Val(dts.Rows(i).Item("clid"))
+                dg.Rows(dg.Rows.Count - 1).Cells(12).Value = Val(dts.Rows(i).Item("Tid"))
+                dg.Rows(dg.Rows.Count - 1).Cells(13).Value = Trim(dts.Rows(i).Item("year_id"))
             End If
         Next
         dg.AlternatingRowsDefaultCellStyle.BackColor = Color.Lavender
@@ -458,8 +458,8 @@ Public Class FrmReceiptEntry
     Private Sub Billno_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles Billno.Validating
         Dim dt As DataTable = ob.Returntable("select * from acmain where billno=" & Val(Billno.Text) & "  and Department='" & Trim(Cmbdepartment.Text) & "' and ptype='Receipt' and year_id='" & clsVariables.WorkingYear & "'", ob.getconnection())
         If dt.Rows.Count > 0 Then
-            If MessageBox.Show("Do You Want To Edit This Entry...?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
-                addnew = False
+            'If MessageBox.Show("Do You Want To Edit This Entry...?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
+            addnew = False
                 billDt.Text = dt.Rows(0).Item("Billdate")
                 Cname.Tag = dt.Rows(0).Item("partyid")
                 Cname.Text = ob.FindOneString("select Member_name from Member_Master where Member_id=" & dt.Rows(0).Item("partyid") & "", ob.getconnection())
@@ -484,7 +484,7 @@ Public Class FrmReceiptEntry
                 acname.Enabled = False
                 loaddgdate()
             End If
-        End If
+        'End If
     End Sub
 
     Private Sub ButDelete_Click(sender As Object, e As EventArgs) Handles ButDelete.Click
@@ -608,5 +608,14 @@ Public Class FrmReceiptEntry
 
     Private Sub intamt_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles intamt.Validating
         cal()
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        clsVariables.Findqueri = "select billno,billdate,PartyId,m.member_name as membername,Netamt from Acmain as a inner join MEMBER_MASTER as m on a.PartyId=m.Member_Id where year_id='" & clsVariables.WorkingYear & "' and ptype='Receipt' order by billno"
+        clsVariables.findtablename = "Acmain"
+        FrmFind.ShowDialog()
+        Billno.Text = clsVariables.HelpId
+        Billno_Validating(Nothing, Nothing)
+        'filldata(Val(Billno.Text))
     End Sub
 End Class

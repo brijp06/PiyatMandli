@@ -80,7 +80,9 @@ Partial Class RojmalEntry
         Me.BuExit = New System.Windows.Forms.Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.txtNoofPrint = New System.Windows.Forms.TextBox()
+        Me.ButPrint = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.SuspendLayout()
@@ -132,7 +134,7 @@ Partial Class RojmalEntry
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Location = New System.Drawing.Point(7, 1)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(619, 171)
+        Me.GroupBox1.Size = New System.Drawing.Size(619, 224)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         '
@@ -763,6 +765,8 @@ Partial Class RojmalEntry
         'GroupBox3
         '
         Me.GroupBox3.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox3.Controls.Add(Me.ButPrint)
+        Me.GroupBox3.Controls.Add(Me.Button1)
         Me.GroupBox3.Controls.Add(Me.txtNoofPrint)
         Me.GroupBox3.Controls.Add(Me.BuExit)
         Me.GroupBox3.Controls.Add(Me.ButLast)
@@ -777,9 +781,23 @@ Partial Class RojmalEntry
         Me.GroupBox3.Controls.Add(Me.ButAdd)
         Me.GroupBox3.Location = New System.Drawing.Point(632, 1)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(95, 171)
+        Me.GroupBox3.Size = New System.Drawing.Size(95, 224)
         Me.GroupBox3.TabIndex = 10
         Me.GroupBox3.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Black
+        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button1.Location = New System.Drawing.Point(6, 153)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(85, 28)
+        Me.Button1.TabIndex = 58
+        Me.Button1.Text = "&Find"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'txtNoofPrint
         '
@@ -793,12 +811,26 @@ Partial Class RojmalEntry
         Me.txtNoofPrint.Text = "2"
         Me.txtNoofPrint.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
+        'ButPrint
+        '
+        Me.ButPrint.ForeColor = System.Drawing.Color.Black
+        Me.ButPrint.Image = Global.WeightPavti.My.Resources.Resources.print
+        Me.ButPrint.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.ButPrint.Location = New System.Drawing.Point(6, 185)
+        Me.ButPrint.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.ButPrint.Name = "ButPrint"
+        Me.ButPrint.Size = New System.Drawing.Size(85, 28)
+        Me.ButPrint.TabIndex = 59
+        Me.ButPrint.Text = "&Print"
+        Me.ButPrint.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ButPrint.UseVisualStyleBackColor = True
+        '
         'RojmalEntry
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightPink
-        Me.ClientSize = New System.Drawing.Size(734, 175)
+        Me.ClientSize = New System.Drawing.Size(734, 228)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupBox3)
         Me.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -873,4 +905,6 @@ Partial Class RojmalEntry
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Drac As Label
     Friend WithEvents Ddate As MaskedTextBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents ButPrint As Button
 End Class
