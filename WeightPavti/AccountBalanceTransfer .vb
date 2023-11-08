@@ -19,7 +19,7 @@ Public Class AccountBalanceTransfer
                     dr = Val(ddr) - Val(ccr)
                 End If
                 If Val(cr) <> 0 Or Val(dr) <> 0 Then
-                    Dim ddate As Date = "01/04/2023"
+                    Dim ddate As Date = gFinYearBegin
                     ob.Execute("Insert Into Acdata(Cid, Year_id, Type, Docno, Docdate, Acid,Dramt ,Remarks,Cramt) Values(1,'" & yearid.Text & "','Opening',1,'" & ob.DateConversion(ddate) & "'," & dt.Rows(i).Item("Account_Id") & "," & Val(dr) & ",'S@ait n)  bik)'," & Val(cr) & ")", ob.getconnection())
                 End If
             Next

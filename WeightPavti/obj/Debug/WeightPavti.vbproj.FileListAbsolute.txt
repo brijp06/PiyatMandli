@@ -231,3 +231,4 @@ E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\AxInterop.WMPLib.d
 E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
 E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
 E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbprojResolveAssemblyReference.cache

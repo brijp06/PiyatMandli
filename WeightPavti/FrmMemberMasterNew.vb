@@ -2,13 +2,6 @@
 Imports WeightPavti.CLS
 Public Class FrmMemberMasterNew
     Private Sub FrmMemberMasterNew_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim dt As DataTable = ob.Returntable("select * from member_master order by member_id", ob.getconnection())
-        For i As Integer = 0 To dt.Rows.Count - 1
-            dg1.Rows.Add()
-            dg1.Rows(dg1.Rows.Count - 1).Cells(0).Value = dt.Rows(i).Item("Member_id")
-            dg1.Rows(dg1.Rows.Count - 1).Cells(1).Value = dt.Rows(i).Item("Member_Name")
-            dg1.Rows(dg1.Rows.Count - 1).Cells(2).Value = ob.FindOneString("select Village_name from village_master where village_id=" & Val(dt.Rows(i).Item("village_id")) & "", ob.getconnection())
-        Next
         TxtFill("Select village_name from village_master", txtvillageid)
         TxtFill("Select village_name from village_master", txtvillagename)
         TxtFill("Select name from itemgroup", txtcolumn)
@@ -114,26 +107,26 @@ Public Class FrmMemberMasterNew
     Public Sub filldata(ByVal membid As Integer)
         Dim dt As DataTable = ob.Returntable("select * from member_master where member_id=" & Val(membid) & "", ob.getconnection())
         If dt.Rows.Count > 0 Then
-            If MessageBox.Show("Do You Want To Edit This Entry...?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
-                txtmemberid.Text = membid
-                txtname.Text = dt.Rows(0).Item("member_name")
-                txtvillageid.Tag = dt.Rows(0).Item("village_id")
-                txtvillageid.Text = ob.FindOneString("select Village_name from village_master where village_id=" & Val(dt.Rows(0).Item("village_id")) & "", ob.getconnection())
-                Dim dts As DataTable = ob.Returntable("select * from LanDetail where code=" & Val(membid) & "", ob.getconnection())
-                For i As Integer = 0 To dts.Rows.Count - 1
-                    dg.Rows.Add()
-                    dg.Rows(i).Cells(0).Value = dts.Rows(i).Item("srno")
-                    dg.Rows(i).Cells(1).Value = ob.FindOneString("select Village_name from village_master where village_id=" & Val(dts.Rows(i).Item("cityname")) & "", ob.getconnection())
-                    dg.Rows(i).Cells(1).Tag = dts.Rows(i).Item("cityname")
-                    dg.Rows(i).Cells(2).Value = dts.Rows(i).Item("Blockno")
-                    dg.Rows(i).Cells(3).Value = dts.Rows(i).Item("serveno")
-                    dg.Rows(i).Cells(4).Value = dts.Rows(i).Item("hektar")
-                    dg.Rows(i).Cells(5).Value = dts.Rows(i).Item("Guntha")
-                    dg.Rows(i).Cells(6).Value = dts.Rows(i).Item("Area")
-                    dg.Rows(i).Cells(7).Value = ob.FindOneString("select Name from ItemGroup where Code=" & Val(dts.Rows(i).Item("Season")) & "", ob.getconnection())
-                    dg.Rows(i).Cells(7).Tag = dts.Rows(i).Item("Season")
-                Next
-            End If
+            'If MessageBox.Show("Do You Want To Edit This Entry...?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
+            txtmemberid.Text = membid
+            txtname.Text = dt.Rows(0).Item("member_name")
+            txtvillageid.Tag = dt.Rows(0).Item("village_id")
+            txtvillageid.Text = ob.FindOneString("select Village_name from village_master where village_id=" & Val(dt.Rows(0).Item("village_id")) & "", ob.getconnection())
+            Dim dts As DataTable = ob.Returntable("select * from LanDetail where code=" & Val(membid) & "", ob.getconnection())
+            For i As Integer = 0 To dts.Rows.Count - 1
+                dg.Rows.Add()
+                dg.Rows(i).Cells(0).Value = dts.Rows(i).Item("srno")
+                dg.Rows(i).Cells(1).Value = ob.FindOneString("select Village_name from village_master where village_id=" & Val(dts.Rows(i).Item("cityname")) & "", ob.getconnection())
+                dg.Rows(i).Cells(1).Tag = dts.Rows(i).Item("cityname")
+                dg.Rows(i).Cells(2).Value = dts.Rows(i).Item("Blockno")
+                dg.Rows(i).Cells(3).Value = dts.Rows(i).Item("serveno")
+                dg.Rows(i).Cells(4).Value = dts.Rows(i).Item("hektar")
+                dg.Rows(i).Cells(5).Value = dts.Rows(i).Item("Guntha")
+                dg.Rows(i).Cells(6).Value = dts.Rows(i).Item("Area")
+                dg.Rows(i).Cells(7).Value = ob.FindOneString("select Name from ItemGroup where Code=" & Val(dts.Rows(i).Item("Season")) & "", ob.getconnection())
+                dg.Rows(i).Cells(7).Tag = dts.Rows(i).Item("Season")
+            Next
+            'End If
         End If
     End Sub
 
@@ -178,16 +171,7 @@ Public Class FrmMemberMasterNew
         If dg.Rows.Count > 0 Then
             dg.Rows.Clear()
         End If
-        If dg1.Rows.Count > 0 Then
-            dg1.Rows.Clear()
-        End If
-        Dim dt As DataTable = ob.Returntable("select * from member_master order by member_id", ob.getconnection())
-        For i As Integer = 0 To dt.Rows.Count - 1
-            dg1.Rows.Add()
-            dg1.Rows(dg1.Rows.Count - 1).Cells(0).Value = dt.Rows(i).Item("Member_id")
-            dg1.Rows(dg1.Rows.Count - 1).Cells(1).Value = dt.Rows(i).Item("Member_Name")
-            dg1.Rows(dg1.Rows.Count - 1).Cells(2).Value = ob.FindOneString("select Village_name from village_master where village_id=" & Val(dt.Rows(i).Item("village_id")) & "", ob.getconnection())
-        Next
+
         txtmemberid.Text = ob.FindOneString("select isnull(max(Member_id),0)+1 from member_master", ob.getconnection())
         txtmemberid.Focus()
     End Sub
@@ -198,5 +182,13 @@ Public Class FrmMemberMasterNew
         MessageBox.Show("Delete")
         clear()
         subclear()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        clsVariables.Findqueri = "select Member_id,Member_name,v.Village_name from MEMBER_MASTER inner join VILLAGE_MASTER as v on MEMBER_MASTER.Village_id=v.Village_Id"
+        clsVariables.findtablename = "MEMBER_MASTER"
+        FrmFind.ShowDialog()
+        txtmemberid.Text = clsVariables.HelpId
+        filldata(Val(txtmemberid.Text))
     End Sub
 End Class

@@ -1824,4 +1824,8 @@ Public Class MdiMain
     Private Sub MigNiRsdAºTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MigNiRsdAºTToolStripMenuItem.Click
         MangnaReceiptReport.Show()
     End Sub
+
+    Private Sub KitivhBlºsTiAfrToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KitivhBlºsTiAfrToolStripMenuItem.Click
+        AccountBalanceTransfer.Show()
+    End Sub
 End Class

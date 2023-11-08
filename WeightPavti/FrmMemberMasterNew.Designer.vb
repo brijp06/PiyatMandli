@@ -49,26 +49,21 @@ Partial Class FrmMemberMasterNew
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.dg1 = New System.Windows.Forms.DataGridView()
-        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.ButSave = New System.Windows.Forms.Button()
         Me.ButCAncel = New System.Windows.Forms.Button()
         Me.ButPrint = New System.Windows.Forms.Button()
         Me.ButDelete = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.dg, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox3.SuspendLayout()
-        CType(Me.dg1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox4.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.txtmobileno)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.txtvillageid)
@@ -80,13 +75,13 @@ Partial Class FrmMemberMasterNew
         Me.GroupBox1.Font = New System.Drawing.Font("HARIKRISHNA", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(8, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(383, 166)
+        Me.GroupBox1.Size = New System.Drawing.Size(858, 124)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         '
         'txtmobileno
         '
-        Me.txtmobileno.Location = New System.Drawing.Point(99, 124)
+        Me.txtmobileno.Location = New System.Drawing.Point(99, 88)
         Me.txtmobileno.Name = "txtmobileno"
         Me.txtmobileno.Size = New System.Drawing.Size(277, 26)
         Me.txtmobileno.TabIndex = 3
@@ -94,7 +89,7 @@ Partial Class FrmMemberMasterNew
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(10, 127)
+        Me.Label4.Location = New System.Drawing.Point(10, 91)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(87, 19)
         Me.Label4.TabIndex = 6
@@ -102,7 +97,7 @@ Partial Class FrmMemberMasterNew
         '
         'txtvillageid
         '
-        Me.txtvillageid.Location = New System.Drawing.Point(99, 90)
+        Me.txtvillageid.Location = New System.Drawing.Point(471, 57)
         Me.txtvillageid.Name = "txtvillageid"
         Me.txtvillageid.Size = New System.Drawing.Size(277, 26)
         Me.txtvillageid.TabIndex = 2
@@ -110,7 +105,7 @@ Partial Class FrmMemberMasterNew
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(10, 93)
+        Me.Label3.Location = New System.Drawing.Point(382, 60)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(72, 19)
         Me.Label3.TabIndex = 4
@@ -160,64 +155,64 @@ Partial Class FrmMemberMasterNew
         Me.GroupBox2.Controls.Add(Me.srno)
         Me.GroupBox2.Controls.Add(Me.dg)
         Me.GroupBox2.Font = New System.Drawing.Font("HARIKRISHNA", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(8, 174)
+        Me.GroupBox2.Location = New System.Drawing.Point(8, 132)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(860, 300)
+        Me.GroupBox2.Size = New System.Drawing.Size(860, 283)
         Me.GroupBox2.TabIndex = 4
         Me.GroupBox2.TabStop = False
         '
         'txtcolumn
         '
-        Me.txtcolumn.Location = New System.Drawing.Point(693, 34)
+        Me.txtcolumn.Location = New System.Drawing.Point(693, 15)
         Me.txtcolumn.Name = "txtcolumn"
         Me.txtcolumn.Size = New System.Drawing.Size(145, 26)
         Me.txtcolumn.TabIndex = 11
         '
         'txtboxno
         '
-        Me.txtboxno.Location = New System.Drawing.Point(189, 34)
+        Me.txtboxno.Location = New System.Drawing.Point(189, 15)
         Me.txtboxno.Name = "txtboxno"
         Me.txtboxno.Size = New System.Drawing.Size(96, 26)
         Me.txtboxno.TabIndex = 6
         '
         'txtsrno
         '
-        Me.txtsrno.Location = New System.Drawing.Point(289, 34)
+        Me.txtsrno.Location = New System.Drawing.Point(289, 15)
         Me.txtsrno.Name = "txtsrno"
         Me.txtsrno.Size = New System.Drawing.Size(96, 26)
         Me.txtsrno.TabIndex = 7
         '
         'txthektar
         '
-        Me.txthektar.Location = New System.Drawing.Point(391, 34)
+        Me.txthektar.Location = New System.Drawing.Point(391, 15)
         Me.txthektar.Name = "txthektar"
         Me.txthektar.Size = New System.Drawing.Size(96, 26)
         Me.txthektar.TabIndex = 8
         '
         'txtguntha
         '
-        Me.txtguntha.Location = New System.Drawing.Point(491, 34)
+        Me.txtguntha.Location = New System.Drawing.Point(491, 15)
         Me.txtguntha.Name = "txtguntha"
         Me.txtguntha.Size = New System.Drawing.Size(96, 26)
         Me.txtguntha.TabIndex = 9
         '
         'txtare
         '
-        Me.txtare.Location = New System.Drawing.Point(592, 34)
+        Me.txtare.Location = New System.Drawing.Point(592, 15)
         Me.txtare.Name = "txtare"
         Me.txtare.Size = New System.Drawing.Size(96, 26)
         Me.txtare.TabIndex = 10
         '
         'txtvillagename
         '
-        Me.txtvillagename.Location = New System.Drawing.Point(52, 34)
+        Me.txtvillagename.Location = New System.Drawing.Point(52, 15)
         Me.txtvillagename.Name = "txtvillagename"
         Me.txtvillagename.Size = New System.Drawing.Size(131, 26)
         Me.txtvillagename.TabIndex = 5
         '
         'srno
         '
-        Me.srno.Location = New System.Drawing.Point(6, 34)
+        Me.srno.Location = New System.Drawing.Point(6, 15)
         Me.srno.Name = "srno"
         Me.srno.Size = New System.Drawing.Size(43, 26)
         Me.srno.TabIndex = 4
@@ -228,7 +223,7 @@ Partial Class FrmMemberMasterNew
         Me.dg.BackgroundColor = System.Drawing.Color.White
         Me.dg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dg.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column8, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7})
-        Me.dg.Location = New System.Drawing.Point(7, 66)
+        Me.dg.Location = New System.Drawing.Point(7, 47)
         Me.dg.Name = "dg"
         Me.dg.RowHeadersVisible = False
         Me.dg.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
@@ -278,52 +273,13 @@ Partial Class FrmMemberMasterNew
         Me.Column7.Name = "Column7"
         Me.Column7.Width = 140
         '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.dg1)
-        Me.GroupBox3.Font = New System.Drawing.Font("HARIKRISHNA", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(397, -2)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(471, 166)
-        Me.GroupBox3.TabIndex = 8
-        Me.GroupBox3.TabStop = False
-        '
-        'dg1
-        '
-        Me.dg1.AllowUserToAddRows = False
-        Me.dg1.BackgroundColor = System.Drawing.Color.White
-        Me.dg1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dg1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.Column9, Me.Column10})
-        Me.dg1.Location = New System.Drawing.Point(6, 14)
-        Me.dg1.Name = "dg1"
-        Me.dg1.RowHeadersVisible = False
-        Me.dg1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dg1.Size = New System.Drawing.Size(460, 152)
-        Me.dg1.TabIndex = 1
-        '
-        'DataGridViewTextBoxColumn1
-        '
-        Me.DataGridViewTextBoxColumn1.HeaderText = "sBisd  ki[D"
-        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
-        '
-        'Column9
-        '
-        Me.Column9.HeaderText = "sBisd nim"
-        Me.Column9.Name = "Column9"
-        Me.Column9.Width = 200
-        '
-        'Column10
-        '
-        Me.Column10.HeaderText = "gim n&> nim"
-        Me.Column10.Name = "Column10"
-        '
         'GroupBox4
         '
         Me.GroupBox4.Controls.Add(Me.ButSave)
         Me.GroupBox4.Controls.Add(Me.ButCAncel)
         Me.GroupBox4.Controls.Add(Me.ButPrint)
         Me.GroupBox4.Controls.Add(Me.ButDelete)
-        Me.GroupBox4.Location = New System.Drawing.Point(14, 471)
+        Me.GroupBox4.Location = New System.Drawing.Point(14, 425)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(852, 54)
         Me.GroupBox4.TabIndex = 58
@@ -385,14 +341,27 @@ Partial Class FrmMemberMasterNew
         Me.ButDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.ButDelete.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Black
+        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button1.Location = New System.Drawing.Point(205, 22)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(77, 28)
+        Me.Button1.TabIndex = 58
+        Me.Button1.Text = "&Find"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'FrmMemberMasterNew
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Pink
-        Me.ClientSize = New System.Drawing.Size(875, 531)
+        Me.ClientSize = New System.Drawing.Size(875, 491)
         Me.Controls.Add(Me.GroupBox4)
-        Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.MaximizeBox = False
@@ -405,8 +374,6 @@ Partial Class FrmMemberMasterNew
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         CType(Me.dg, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox3.ResumeLayout(False)
-        CType(Me.dg1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox4.ResumeLayout(False)
         Me.ResumeLayout(False)
 
@@ -439,14 +406,10 @@ Partial Class FrmMemberMasterNew
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
     Friend WithEvents Column7 As DataGridViewTextBoxColumn
-    Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents dg1 As DataGridView
-    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column9 As DataGridViewTextBoxColumn
-    Friend WithEvents Column10 As DataGridViewTextBoxColumn
     Friend WithEvents GroupBox4 As GroupBox
     Friend WithEvents ButSave As Button
     Friend WithEvents ButCAncel As Button
     Friend WithEvents ButPrint As Button
     Friend WithEvents ButDelete As Button
+    Friend WithEvents Button1 As Button
 End Class

@@ -156,6 +156,7 @@ Partial Class MdiMain
         Me.PicTransaction = New System.Windows.Forms.PictureBox()
         Me.PicReport = New System.Windows.Forms.PictureBox()
         Me.PicMaster = New System.Windows.Forms.PictureBox()
+        Me.KitivhBlºsTiAfrToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip2.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
@@ -734,7 +735,7 @@ Partial Class MdiMain
         '
         'ToolStripMenuItem3
         '
-        Me.ToolStripMenuItem3.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TitleHorizontalToolStripMenuItem, Me.TitleVerticalToolStripMenuItem, Me.CaseCadeToolStripMenuItem, Me.ArrangeIcodeToolStripMenuItem, Me.RojmedToolStripMenuItem, Me.AccountLedgerToolStripMenuItem, Me.ToolStripMenuItem1, Me.TrialBalanceReportToolStripMenuItem, Me.ToolStripMenuItem2, Me.ToolStripMenuItem4, Me.ToolStripMenuItem5, Me.MemberReportToolStripMenuItem, Me.StockReportToolStripMenuItem})
+        Me.ToolStripMenuItem3.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TitleHorizontalToolStripMenuItem, Me.TitleVerticalToolStripMenuItem, Me.CaseCadeToolStripMenuItem, Me.ArrangeIcodeToolStripMenuItem, Me.RojmedToolStripMenuItem, Me.AccountLedgerToolStripMenuItem, Me.ToolStripMenuItem1, Me.TrialBalanceReportToolStripMenuItem, Me.ToolStripMenuItem2, Me.ToolStripMenuItem4, Me.ToolStripMenuItem5, Me.MemberReportToolStripMenuItem, Me.StockReportToolStripMenuItem, Me.KitivhBlºsTiAfrToolStripMenuItem})
         Me.ToolStripMenuItem3.Font = New System.Drawing.Font("NILKANTH", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
         Me.ToolStripMenuItem3.Size = New System.Drawing.Size(114, 26)
@@ -827,6 +828,7 @@ Partial Class MdiMain
         Me.StockReportToolStripMenuItem.Name = "StockReportToolStripMenuItem"
         Me.StockReportToolStripMenuItem.Size = New System.Drawing.Size(277, 26)
         Me.StockReportToolStripMenuItem.Text = "AT[ik Kitivh)"
+        Me.StockReportToolStripMenuItem.Visible = False
         '
         'ToolStripMenuItem88
         '
@@ -1116,6 +1118,12 @@ Partial Class MdiMain
         Me.PicMaster.TabStop = False
         Me.PicMaster.Visible = False
         '
+        'KitivhBlºsTiAfrToolStripMenuItem
+        '
+        Me.KitivhBlºsTiAfrToolStripMenuItem.Name = "KitivhBlºsTiAfrToolStripMenuItem"
+        Me.KitivhBlºsTiAfrToolStripMenuItem.Size = New System.Drawing.Size(277, 26)
+        Me.KitivhBlºsTiAfrToolStripMenuItem.Text = "Kitivh) b[l[ºs T^iAfr"
+        '
         'MdiMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(15.0!, 32.0!)
@@ -1290,4 +1298,5 @@ Partial Class MdiMain
     Friend WithEvents SBisdJmnRpiTToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MigNiToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents MigNiRsdAºTToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents KitivhBlºsTiAfrToolStripMenuItem As ToolStripMenuItem
 End Class
