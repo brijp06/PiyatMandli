@@ -20,7 +20,7 @@ Public Class Acledger
         autotwo()
         TxtfromDate.Text = gFinYearBegin
 
-        TxtToDate.Text = Format(Now, "dd/MM/yyyy")
+        TxtToDate.Text = gFinYearEnd
 
     End Sub
     Public Sub auto()

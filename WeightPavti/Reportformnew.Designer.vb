@@ -23,12 +23,12 @@ Partial Class Reportformnew
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
-        Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer
-        Me.cboInstalledPrinters = New System.Windows.Forms.ComboBox
-        Me.ComboSize = New System.Windows.Forms.ComboBox
+        Me.components = New System.ComponentModel.Container()
+        Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
+        Me.cboInstalledPrinters = New System.Windows.Forms.ComboBox()
+        Me.ComboSize = New System.Windows.Forms.ComboBox()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.PrintToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.PrintToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -80,7 +80,7 @@ Partial Class Reportformnew
         Me.PrintToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.PrintToolStripMenuItem.Text = "&Print"
         '
-        'Reportform
+        'Reportformnew
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -89,13 +89,12 @@ Partial Class Reportformnew
         Me.Controls.Add(Me.cboInstalledPrinters)
         Me.Controls.Add(Me.CrystalReportViewer1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.MaximizeBox = False
-        Me.MinimizeBox = False
-        Me.Name = "Reportform"
+        Me.Name = "Reportformnew"
         Me.Padding = New System.Windows.Forms.Padding(9)
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ReportViewer"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ContextMenuStrip1.ResumeLayout(False)
         Me.ResumeLayout(False)
 

@@ -241,14 +241,10 @@ Public Class Reportformnew
 
             rpttype = ""
             'End If
-            If clsVariables.spint = 1 Then
-                CrystalReportViewer1.PrintReport()
-                clsVariables.spint = 0
-                Exit Sub
-            Else
-                CrystalReportViewer1.Zoom(100)
+
+            CrystalReportViewer1.Zoom(100)
                 CrystalReportViewer1.Refresh()
-            End If
+
 
 
         Catch ex As Exception
