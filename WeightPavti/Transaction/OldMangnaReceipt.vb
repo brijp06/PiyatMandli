@@ -469,6 +469,9 @@ Public Class OldMangnaReceipt
     End Sub
 
     Private Sub intamt_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles intamt.Validating
+        If Trim(intamt.Text) = "" Then
+            intamt.Text = 0
+        End If
         cal()
     End Sub
 

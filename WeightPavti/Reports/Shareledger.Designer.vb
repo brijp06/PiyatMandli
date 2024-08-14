@@ -219,6 +219,7 @@ Partial Class Shareledger
         '
         'Acname
         '
+        Me.Acname.Enabled = False
         Me.Acname.Font = New System.Drawing.Font("HARIKRISHNA", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Acname.Location = New System.Drawing.Point(124, 228)
         Me.Acname.Name = "Acname"

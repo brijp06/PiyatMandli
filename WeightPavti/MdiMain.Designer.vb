@@ -65,6 +65,7 @@ Partial Class MdiMain
         Me.MemberToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MemberInwardToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MemberReceiptToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SBisdSrTiºsfrToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LoanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem8 = New System.Windows.Forms.ToolStripMenuItem()
         Me.LoanPaymentToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -107,6 +108,7 @@ Partial Class MdiMain
         Me.SBisdJmnRpiTToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MigNiToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MigNiRsdAºTToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RijmlRpiTToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.TitleHorizontalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TitleVerticalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -121,6 +123,8 @@ Partial Class MdiMain
         Me.ToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MemberReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StockReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KitivhBlºsTiAfrToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NvVPBnivvToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem88 = New System.Windows.Forms.ToolStripMenuItem()
         Me.AChangeCompanyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BChangeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -129,6 +133,8 @@ Partial Class MdiMain
         Me.ToolStripMenuItem11 = New System.Windows.Forms.ToolStripMenuItem()
         Me.FCloudBackupToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GDataTransferToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IAccoutBalanceTrasferToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem63 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem7 = New System.Windows.Forms.ToolStripMenuItem()
@@ -156,7 +162,7 @@ Partial Class MdiMain
         Me.PicTransaction = New System.Windows.Forms.PictureBox()
         Me.PicReport = New System.Windows.Forms.PictureBox()
         Me.PicMaster = New System.Windows.Forms.PictureBox()
-        Me.KitivhBlºsTiAfrToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SrKitivhToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip2.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
@@ -438,7 +444,7 @@ Partial Class MdiMain
         '
         'MemberToolStripMenuItem
         '
-        Me.MemberToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MemberInwardToolStripMenuItem, Me.MemberReceiptToolStripMenuItem})
+        Me.MemberToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MemberInwardToolStripMenuItem, Me.MemberReceiptToolStripMenuItem, Me.SBisdSrTiºsfrToolStripMenuItem})
         Me.MemberToolStripMenuItem.Name = "MemberToolStripMenuItem"
         Me.MemberToolStripMenuItem.Size = New System.Drawing.Size(313, 26)
         Me.MemberToolStripMenuItem.Text = "S[r sBisd a[ºT^)"
@@ -454,6 +460,12 @@ Partial Class MdiMain
         Me.MemberReceiptToolStripMenuItem.Name = "MemberReceiptToolStripMenuItem"
         Me.MemberReceiptToolStripMenuItem.Size = New System.Drawing.Size(221, 26)
         Me.MemberReceiptToolStripMenuItem.Text = "sBisd S[r jmi a[ºT^)"
+        '
+        'SBisdSrTiºsfrToolStripMenuItem
+        '
+        Me.SBisdSrTiºsfrToolStripMenuItem.Name = "SBisdSrTiºsfrToolStripMenuItem"
+        Me.SBisdSrTiºsfrToolStripMenuItem.Size = New System.Drawing.Size(221, 26)
+        Me.SBisdSrTiºsfrToolStripMenuItem.Text = "sBisd S[r T^iºsfr"
         '
         'LoanToolStripMenuItem
         '
@@ -610,7 +622,7 @@ Partial Class MdiMain
         '
         'DailyReportmenu
         '
-        Me.DailyReportmenu.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.WeightPavtiReportToolStripMenuItem, Me.ToolStripMenuItem9, Me.MonthlyReportToolStripMenuItem, Me.RajinamaReportToolStripMenuItem, Me.InventoryToolStripMenuItem1, Me.SBisdJmnRpiTToolStripMenuItem, Me.MigNiToolStripMenuItem1, Me.MigNiRsdAºTToolStripMenuItem})
+        Me.DailyReportmenu.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.WeightPavtiReportToolStripMenuItem, Me.ToolStripMenuItem9, Me.MonthlyReportToolStripMenuItem, Me.RajinamaReportToolStripMenuItem, Me.InventoryToolStripMenuItem1, Me.SBisdJmnRpiTToolStripMenuItem, Me.MigNiToolStripMenuItem1, Me.MigNiRsdAºTToolStripMenuItem, Me.RijmlRpiTToolStripMenuItem, Me.SrKitivhToolStripMenuItem})
         Me.DailyReportmenu.Font = New System.Drawing.Font("NILKANTH", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DailyReportmenu.Name = "DailyReportmenu"
         Me.DailyReportmenu.Size = New System.Drawing.Size(93, 26)
@@ -733,9 +745,15 @@ Partial Class MdiMain
         Me.MigNiRsdAºTToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
         Me.MigNiRsdAºTToolStripMenuItem.Text = "mi>gNi rs)d  r)pi[T"
         '
+        'RijmlRpiTToolStripMenuItem
+        '
+        Me.RijmlRpiTToolStripMenuItem.Name = "RijmlRpiTToolStripMenuItem"
+        Me.RijmlRpiTToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
+        Me.RijmlRpiTToolStripMenuItem.Text = "r[ijm[l r)p[iT"
+        '
         'ToolStripMenuItem3
         '
-        Me.ToolStripMenuItem3.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TitleHorizontalToolStripMenuItem, Me.TitleVerticalToolStripMenuItem, Me.CaseCadeToolStripMenuItem, Me.ArrangeIcodeToolStripMenuItem, Me.RojmedToolStripMenuItem, Me.AccountLedgerToolStripMenuItem, Me.ToolStripMenuItem1, Me.TrialBalanceReportToolStripMenuItem, Me.ToolStripMenuItem2, Me.ToolStripMenuItem4, Me.ToolStripMenuItem5, Me.MemberReportToolStripMenuItem, Me.StockReportToolStripMenuItem, Me.KitivhBlºsTiAfrToolStripMenuItem})
+        Me.ToolStripMenuItem3.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TitleHorizontalToolStripMenuItem, Me.TitleVerticalToolStripMenuItem, Me.CaseCadeToolStripMenuItem, Me.ArrangeIcodeToolStripMenuItem, Me.RojmedToolStripMenuItem, Me.AccountLedgerToolStripMenuItem, Me.ToolStripMenuItem1, Me.TrialBalanceReportToolStripMenuItem, Me.ToolStripMenuItem2, Me.ToolStripMenuItem4, Me.ToolStripMenuItem5, Me.MemberReportToolStripMenuItem, Me.StockReportToolStripMenuItem, Me.KitivhBlºsTiAfrToolStripMenuItem, Me.NvVPBnivvToolStripMenuItem})
         Me.ToolStripMenuItem3.Font = New System.Drawing.Font("NILKANTH", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
         Me.ToolStripMenuItem3.Size = New System.Drawing.Size(114, 26)
@@ -779,6 +797,7 @@ Partial Class MdiMain
         Me.RojmedToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Space), System.Windows.Forms.Keys)
         Me.RojmedToolStripMenuItem.Size = New System.Drawing.Size(277, 26)
         Me.RojmedToolStripMenuItem.Text = "r[ijm[l r)p[iT"
+        Me.RojmedToolStripMenuItem.Visible = False
         '
         'AccountLedgerToolStripMenuItem
         '
@@ -830,10 +849,24 @@ Partial Class MdiMain
         Me.StockReportToolStripMenuItem.Text = "AT[ik Kitivh)"
         Me.StockReportToolStripMenuItem.Visible = False
         '
+        'KitivhBlºsTiAfrToolStripMenuItem
+        '
+        Me.KitivhBlºsTiAfrToolStripMenuItem.Name = "KitivhBlºsTiAfrToolStripMenuItem"
+        Me.KitivhBlºsTiAfrToolStripMenuItem.Size = New System.Drawing.Size(277, 26)
+        Me.KitivhBlºsTiAfrToolStripMenuItem.Text = "Kitivh) b[l[ºs T^iAfr"
+        Me.KitivhBlºsTiAfrToolStripMenuItem.Visible = False
+        '
+        'NvVPBnivvToolStripMenuItem
+        '
+        Me.NvVPBnivvToolStripMenuItem.Name = "NvVPBnivvToolStripMenuItem"
+        Me.NvVPBnivvToolStripMenuItem.Size = New System.Drawing.Size(277, 26)
+        Me.NvVPBnivvToolStripMenuItem.Text = "nv&> vP< bnivv&>"
+        Me.NvVPBnivvToolStripMenuItem.Visible = False
+        '
         'ToolStripMenuItem88
         '
         Me.ToolStripMenuItem88.BackColor = System.Drawing.Color.Transparent
-        Me.ToolStripMenuItem88.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AChangeCompanyToolStripMenuItem, Me.BChangeToolStripMenuItem, Me.CChangePasswordToolStripMenuItem, Me.DStockTransferToolStripMenuItem, Me.ToolStripMenuItem11, Me.FCloudBackupToolStripMenuItem, Me.GDataTransferToolStripMenuItem})
+        Me.ToolStripMenuItem88.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AChangeCompanyToolStripMenuItem, Me.BChangeToolStripMenuItem, Me.HToolStripMenuItem, Me.IAccoutBalanceTrasferToolStripMenuItem, Me.CChangePasswordToolStripMenuItem, Me.DStockTransferToolStripMenuItem, Me.ToolStripMenuItem11, Me.FCloudBackupToolStripMenuItem, Me.GDataTransferToolStripMenuItem})
         Me.ToolStripMenuItem88.Name = "ToolStripMenuItem88"
         Me.ToolStripMenuItem88.Size = New System.Drawing.Size(54, 26)
         Me.ToolStripMenuItem88.Text = "Oth&er"
@@ -884,6 +917,18 @@ Partial Class MdiMain
         Me.GDataTransferToolStripMenuItem.Name = "GDataTransferToolStripMenuItem"
         Me.GDataTransferToolStripMenuItem.Size = New System.Drawing.Size(241, 22)
         Me.GDataTransferToolStripMenuItem.Text = "G&.Data Transfer"
+        '
+        'HToolStripMenuItem
+        '
+        Me.HToolStripMenuItem.Name = "HToolStripMenuItem"
+        Me.HToolStripMenuItem.Size = New System.Drawing.Size(241, 22)
+        Me.HToolStripMenuItem.Text = "&H.Create New Year"
+        '
+        'IAccoutBalanceTrasferToolStripMenuItem
+        '
+        Me.IAccoutBalanceTrasferToolStripMenuItem.Name = "IAccoutBalanceTrasferToolStripMenuItem"
+        Me.IAccoutBalanceTrasferToolStripMenuItem.Size = New System.Drawing.Size(241, 22)
+        Me.IAccoutBalanceTrasferToolStripMenuItem.Text = "&I.Accout Balance Trasfer"
         '
         'ToolStripMenuItem63
         '
@@ -1118,11 +1163,11 @@ Partial Class MdiMain
         Me.PicMaster.TabStop = False
         Me.PicMaster.Visible = False
         '
-        'KitivhBlºsTiAfrToolStripMenuItem
+        'SrKitivhToolStripMenuItem
         '
-        Me.KitivhBlºsTiAfrToolStripMenuItem.Name = "KitivhBlºsTiAfrToolStripMenuItem"
-        Me.KitivhBlºsTiAfrToolStripMenuItem.Size = New System.Drawing.Size(277, 26)
-        Me.KitivhBlºsTiAfrToolStripMenuItem.Text = "Kitivh) b[l[ºs T^iAfr"
+        Me.SrKitivhToolStripMenuItem.Name = "SrKitivhToolStripMenuItem"
+        Me.SrKitivhToolStripMenuItem.Size = New System.Drawing.Size(223, 26)
+        Me.SrKitivhToolStripMenuItem.Text = "S[r Kitivh)"
         '
         'MdiMain
         '
@@ -1299,4 +1344,10 @@ Partial Class MdiMain
     Friend WithEvents MigNiToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents MigNiRsdAºTToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents KitivhBlºsTiAfrToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents NvVPBnivvToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents HToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents IAccoutBalanceTrasferToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RijmlRpiTToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SBisdSrTiºsfrToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SrKitivhToolStripMenuItem As ToolStripMenuItem
 End Class

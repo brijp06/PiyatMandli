@@ -6,16 +6,20 @@ Public Class Shareledger
         DG.Columns.Add("Report", "Report")
         Dg.Columns(0).Width = 350
         Dim item As New ListViewItem
-        item = Dg.Items.Add("Member Ledger")
-        item = Dg.Items.Add("Member Balance Report")
+        item = Dg.Items.Add("Share Ledger")
+        item = Dg.Items.Add("Share Transfer Report")
         'item = Dg.Items.Add("Account Ledger Report Cash")
         dg1.Columns.Add("", "")
         Panel1.Visible = False
         auto()
         autoname()
         autotwo()
-        TxtfromDate.Text = "01/04/2022"
+        TxtfromDate.Text = "01/04/2012"
         TxtToDate.Text = Format(Now, "dd/MM/yyyy")
+        Acname.Tag = 1
+        If Val(Acname.Tag) <> 0 Then
+            Acname.Text = ob.FindOneString("select account_Name from account_master where Account_id=" & Val(Acname.Tag) & "", ob.getconnection())
+        End If
     End Sub
     Public Sub auto()
         Dim AutoComp As New AutoCompleteStringCollection()
@@ -92,8 +96,8 @@ Public Class Shareledger
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
 
         Dim ssql As String = ""
-        If Dg.SelectedItems(0).SubItems(0).Text = "Member Ledger" Then
-            ssql = "{Acmain.Department}='Member'"
+        If Dg.SelectedItems(0).SubItems(0).Text = "Share Ledger" Then
+            ssql = "" '"{Acmain.Department}='Member'"
             clsVariables.ReportSql = ssql
             clsVariables.FromDate = TxtfromDate.Text
             clsVariables.ToDate = TxtToDate.Text
@@ -104,21 +108,14 @@ Public Class Shareledger
             Dim frm As New Reportform
             frm.Show()
         Else
-            ob.Execute("delete from tmpbalance", ob.getconnection())
-            Dim dt As DataTable = ob.Returntable("select Partyid,m.Member_name,SUM(Paymentamt) as  py,SUM(receiptamt) as rc from Acmain inner join MEMBER_MASTER as m on Acmain.Partyid=m.Member_Id  where Acid=" & Val(Acname.Tag) & " and Billdate<='" & ob.DateConversion(TxtToDate.Text) & "'  group by Partyid,m.Member_name  order by Partyid", ob.getconnection())
-            For i As Integer = 0 To dt.Rows.Count - 1
-                Dim bal As Double = 0
-                bal = Val(dt.Rows(i).Item("rc")) - Val(dt.Rows(i).Item("py"))
-                If Val(bal) <> 0 Then
-                    ob.Execute("Insert into tmpbalance(id,Mname,Balance1,acid) values(" & dt.Rows(i).Item("Partyid") & ",N'" & dt.Rows(i).Item("Member_name") & "'," & Val(bal) & "," & Val(Acname.Tag) & ")", ob.getconnection())
-                End If
-            Next
-            ssql = ""
+            ssql = "{Acmain.ptype}='ShareTransfer'"
             clsVariables.ReportSql = ssql
             clsVariables.FromDate = TxtfromDate.Text
             clsVariables.ToDate = TxtToDate.Text
-            clsVariables.Repheader = "Member Balance"
-            clsVariables.ReportName = "MemberBalanceReporAcwise.rpt"
+            clsVariables.PassAccId = Val(Membname.Tag)
+            clsVariables.RDocNo = Val(Acname.Tag)
+            clsVariables.Repheader = "Share Ledger"
+            clsVariables.ReportName = "MemberTransferReport.rpt"
             Dim frm As New Reportform
             frm.Show()
         End If

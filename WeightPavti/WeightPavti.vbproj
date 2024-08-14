@@ -963,6 +963,12 @@
     <Compile Include="Transaction\FrmSalesEntryBhandar.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Transaction\FrmShareTrasfer.Designer.vb">
+      <DependentUpon>FrmShareTrasfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmShareTrasfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Transaction\FrmShowItem.Designer.vb">
       <DependentUpon>FrmShowItem.vb</DependentUpon>
     </Compile>
@@ -1442,6 +1448,9 @@
     <EmbeddedResource Include="Transaction\FrmSalesEntryBhandar.resx">
       <DependentUpon>FrmSalesEntryBhandar.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmShareTrasfer.resx">
+      <DependentUpon>FrmShareTrasfer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Transaction\FrmShowItem.resx">
       <DependentUpon>FrmShowItem.vb</DependentUpon>
     </EmbeddedResource>
@@ -1594,6 +1603,7 @@
     <None Include="Resources\photo-1432821596592-e2c18b78144f1.jpg" />
     <None Include="Resources\natural farming hero desktop.jpg" />
     <None Include="Resources\photo-1495107334309-fcf20504a5ab.jpg" />
+    <None Include="Resources\OM SAI Infotech_LOGO.png" />
     <Content Include="Resources\print.png" />
     <None Include="Resources\rotate-pulsating-loading-animation.gif" />
     <Content Include="Resources\save.png" />

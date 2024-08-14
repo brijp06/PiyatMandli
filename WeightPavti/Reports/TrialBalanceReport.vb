@@ -123,7 +123,7 @@ Public Class TrialBalanceReport
         ssql = "DELETE FROM Joint_Trial_Balance where Company_id=" & clsVariables.CompnyId
         ob.Execute(ssql, ob.getconnection(ob.Getconn))
         ob.Execute("Delete from tmpACData", ob.getconnection())
-        ob.Execute("Insert Into tmpACData select * from ACData where Year_id='" & clsVariables.WorkingYear & "' and Docdate between '" & ob.DateConversion(TxtfromDate.Text) & "' and '" & ob.DateConversion(TxtToDate.Text) & "'", ob.getconnection())
+        ob.Execute("Insert Into tmpACData select * from ACData where Year_id='" & clsVariables.WorkingYear & "' and Docdate between '" & ob.DateConversion(TxtfromDate.Text) & "' and '" & ob.DateConversion(TxtToDate.Text) & "' ", ob.getconnection())
 
         'Dim dtcfee As DataTable = ob.Returntable("select  Docno, Docdate, Id, Name,sum(Amount) as amount,sum(Dramt) as Dramt from sdata where Docdate between '" & ob.DateConversion(TxtfromDate.Text) & "' and '" & ob.DateConversion(TxtToDate.Text) & "' Group By Docno, Docdate, Id, Name", ob.getconnection())
         'If dtcfee.Rows.Count > 0 Then

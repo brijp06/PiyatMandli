@@ -400,7 +400,7 @@ Public Class Columnmaster
                 Else
                     'Dim result1 As DialogResult = MessageBox.Show("Do You Want to Edit?", "Important Question", MessageBoxButtons.YesNo)
                     'If result1 = 6 Then
-                    ob.UpdateEditUser("Column_Master", "Company_Id=" & clsVariables.CompnyId & " and Column_Id=" & aq(txtColumnId.Text), ob.getconnection(ob.Getconn(BackDbname)))
+                    'ob.UpdateEditUser("Column_Master", "Company_Id=" & clsVariables.CompnyId & " and Column_Id=" & aq(txtColumnId.Text), ob.getconnection(ob.Getconn(BackDbname)))
                     Dim sqlcommand As New SqlClient.SqlCommand
                     sqlcommand.Connection = ob.getconnection(ob.Getconn)
                     sql = "Update Column_Master SET Column_Name=@Column_Name,limit=@limit,Department_name=@Department_name,"
@@ -419,7 +419,7 @@ Public Class Columnmaster
                     sqlcommand.Parameters.Clear()
                     ssql = " Company_id=" & clsVariables.CompnyId
                     ssql = ssql & " and Column_id=" & Val(txtColumnId.Text)
-                    ob.UpdateIdmach("Column_Master", ssql, ob.getconnection, Isadd)
+                    'ob.UpdateIdmach("Column_Master", ssql, ob.getconnection, Isadd)
                     'insert()
                     '   insert()
                     loadg()

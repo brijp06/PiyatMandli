@@ -36,7 +36,7 @@ Public Class FrmMangnaEntry
     End Sub
 
     Private Sub txtcolumn_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtcolumn.Validating
-        txtcolumn.Tag = ob.FindOneString("select code from itemgroup where name=N'" & Val(txtcolumn.Text) & "' or code=" & Val(txtcolumn.Text) & "", ob.getconnection())
+        txtcolumn.Tag = ob.FindOneString("select code from itemgroup where name=N'" & Trim(txtcolumn.Text) & "' or code=" & Val(txtcolumn.Text) & "", ob.getconnection())
         If Val(txtcolumn.Tag) <> 0 Then
             txtcolumn.Text = ob.FindOneString("select name from itemgroup where  code=" & Val(txtcolumn.Tag) & "", ob.getconnection())
             addvalue()
@@ -49,6 +49,9 @@ Public Class FrmMangnaEntry
         End If
     End Sub
     Public Sub addvalue()
+        If dg.Rows.Count > 0 Then
+            dg.Rows.Clear()
+        End If
         Dim dts As DataTable = ob.Returntable("select * from LanDetail where code=" & Val(txtname.Tag) & " and season=" & Val(txtcolumn.Tag) & "", ob.getconnection())
         For i As Integer = 0 To dts.Rows.Count - 1
             dg.Rows.Add()
@@ -62,7 +65,7 @@ Public Class FrmMangnaEntry
             dg.Rows(i).Cells(6).Value = Val(dts.Rows(i).Item("Area"))
             dg.Rows(i).Cells(7).Value = Val(dts.Rows(i).Item("Hektar"))
             dg.Rows(i).Cells(8).Value = Val(dts.Rows(i).Item("Guntha"))
-            dg.Rows(i).Cells(9).Value = ob.FindOneString("select limit from column_master where column_id=" & Val(dts.Rows(i).Item("cityname")) & "", ob.getconnection())
+            dg.Rows(i).Cells(9).Value = ob.FindOneString("select limit from column_master where column_id=" & Val(txtvillageid.Tag) & "", ob.getconnection())
             Dim hk = Val(dg.Rows(i).Cells(7).Value) * 100
             Dim dkd = Val(hk) + Val(dg.Rows(i).Cells(8).Value)
             Dim amt = Val(Val(dkd) * Val(dg.Rows(i).Cells(9).Value)) / 100
@@ -133,15 +136,15 @@ Public Class FrmMangnaEntry
         If dt.Rows.Count > 0 Then
             ' If MessageBox.Show("Do You Want To Edit This Entry...?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
             Billno.Text = membid
-                txtname.Tag = dt.Rows(0).Item("partyid")
-                txtname.Text = ob.FindOneString("select member_name from Member_master where member_id=" & Val(dt.Rows(0).Item("partyid")) & "", ob.getconnection())
-                txtvillageid.Tag = dt.Rows(0).Item("clid")
-                txtvillageid.Text = ob.FindOneString("select column_name from column_master where column_id=" & Val(dt.Rows(0).Item("clid")) & "", ob.getconnection())
-                txtcolumn.Tag = dt.Rows(0).Item("tid")
-                If (txtcolumn.Tag) <> 0 Then
-                    txtcolumn.Text = ob.FindOneString("select name from itemgroup where  code=" & Val(txtcolumn.Tag) & "", ob.getconnection())
-                End If
-                acname.Enabled = False
+            txtname.Tag = dt.Rows(0).Item("partyid")
+            txtname.Text = ob.FindOneString("select member_name from Member_master where member_id=" & Val(dt.Rows(0).Item("partyid")) & "", ob.getconnection())
+            txtvillageid.Tag = dt.Rows(0).Item("clid")
+            txtvillageid.Text = ob.FindOneString("select column_name from column_master where column_id=" & Val(dt.Rows(0).Item("clid")) & "", ob.getconnection())
+            txtcolumn.Tag = dt.Rows(0).Item("tid")
+            If (txtcolumn.Tag) <> 0 Then
+                txtcolumn.Text = ob.FindOneString("select name from itemgroup where  code=" & Val(txtcolumn.Tag) & "", ob.getconnection())
+            End If
+            acname.Enabled = False
             Dim dts As DataTable = ob.Returntable("select * from acstock where billno=" & Val(Billno.Text) & " and ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
             If dg.Rows.Count > 0 Then
                 dg.Rows.Clear()
@@ -179,7 +182,7 @@ Public Class FrmMangnaEntry
         End If
     End Sub
     Private Sub txtvillageid_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtvillageid.Validating
-        txtvillageid.Tag = ob.FindOneString("select column_id from column_master where column_name=N'" & Val(txtvillageid.Text) & "' or column_id=" & Val(txtvillageid.Text) & "", ob.getconnection())
+        txtvillageid.Tag = ob.FindOneString("select column_id from column_master where column_name=N'" & Trim(txtvillageid.Text) & "' or column_id=" & Val(txtvillageid.Text) & "", ob.getconnection())
         If Val(txtvillageid.Tag) <> 0 Then
             txtvillageid.Text = ob.FindOneString("select column_name from column_master where column_id=" & Val(txtvillageid.Tag) & "", ob.getconnection())
         End If
@@ -193,19 +196,22 @@ Public Class FrmMangnaEntry
     End Sub
 
     Private Sub ButSave_Click(sender As Object, e As EventArgs) Handles ButSave.Click
-        ob.Execute("delete from acmain where billno=" & Val(Billno.Text) & " and ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
-        ob.Execute("delete from Acdata where Docno=" & Val(Billno.Text) & "  and ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
-        ob.Execute("delete from Acstock where billno=" & Val(Billno.Text) & " and  ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
-        ob.Execute("Insert Into Acmain(Cid, Year_id, Department, Billtype, Billno, Billdate, PartyId, Acid, Remarks, gst, Roundoff,Basic, Netamt,ReceiptAmt,ptype,rate,tid,clid) Values(" & clsVariables.CompnyId & ",'" & clsVariables.WorkingYear & "','Mangna','Mangna'," & Val(Billno.Text) & ",'" & ob.DateConversion(billDt.Text) & "'," & Val(txtname.Tag) & "," & Val(acname.Tag) & ",N'" & Trim(txtname.Text) & "'," & Val(txtnetar.Text) & "," & Val(txtnete.Text) & "," & Val(txtam.Text) & "," & Val(txtnetamt.Text) & "," & Val(txtnetamt.Text) & ",'Mangna'," & Val(txtlam.Text) & "," & Val(txtcolumn.Tag) & "," & Val(txtvillageid.Tag) & ")", ob.getconnection())
-        Dim spid As String = ob.FindOneString("Select account_id from column_master Where column_id=" & Val(txtcolumn.Tag) & "", ob.getconnection())
-        ob.Execute("Insert Into Acdata(Cid, Year_id, Type, Docno, Docdate, Acid, ACName, dramt,Remarks,cramt,ptype,Department) Values(1,'" & clsVariables.WorkingYear & "','Mangna'," & Billno.Text & ",'" & ob.DateConversion(billDt.Text) & "'," & spid & ",N'" & txtcolumn.Text & "'," & (txtnetamt.Text) & ",N'" & Trim(txtname.Text) & "',0,'Mangna','Mangna')", ob.getconnection())
-        ob.Execute("Insert Into Acdata(Cid, Year_id, Type, Docno, Docdate,Acid, ACName, cramt,Remarks,dramt,ptype,Department) Values(1,'" & clsVariables.WorkingYear & "','Mangna'," & Billno.Text & ",'" & ob.DateConversion(billDt.Text) & "'," & acname.Tag & ",N'" & acname.Text & "'," & (txtnetamt.Text) & ",N'" & Trim(txtname.Text) & "',0,'Mangna','Mangna')", ob.getconnection())
-        For i As Integer = 0 To dg.Rows.Count - 1
-            ob.Execute("Insert Into Acstock(Cid, Year_id, Department, Billno, Billdate,ptype,Billtype,srno,Itemid,blockNo, ServeNo, Hektar, Guntha, Aker, AHektar, AGuntha, Rate1,Amount, LPer, LFund, TotalAmount) Values(1,'" & clsVariables.WorkingYear & "','Mangna'," & Billno.Text & ",'" & ob.DateConversion(billDt.Text) & "','Mangna','Mangna'," & dg.Rows(i).Cells(0).Value & "," & dg.Rows(i).Cells(1).Tag & "," & dg.Rows(i).Cells(2).Value & "," & dg.Rows(i).Cells(3).Value & "," & dg.Rows(i).Cells(4).Value & "," & dg.Rows(i).Cells(5).Value & "," & dg.Rows(i).Cells(6).Value & "," & dg.Rows(i).Cells(7).Value & "," & dg.Rows(i).Cells(8).Value & "," & dg.Rows(i).Cells(9).Value & "," & dg.Rows(i).Cells(10).Value & "," & dg.Rows(i).Cells(11).Value & "," & dg.Rows(i).Cells(12).Value & "," & dg.Rows(i).Cells(13).Value & ")", ob.getconnection())
-        Next
-        MessageBox.Show("Save")
-        clear()
-        subclear()
+        If dg.Rows.Count > 0 Then
+            ob.Execute("delete from acmain where billno=" & Val(Billno.Text) & " and ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
+            ob.Execute("delete from Acdata where Docno=" & Val(Billno.Text) & "  and ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
+            ob.Execute("delete from Acstock where billno=" & Val(Billno.Text) & " and  ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
+            ob.Execute("Insert Into Acmain(Cid, Year_id, Department, Billtype, Billno, Billdate, PartyId, Acid, Remarks, Loanno, Fdno,Basic, Netamt,Paymentamt,ptype,rate,tid,clid) Values(" & clsVariables.CompnyId & ",'" & clsVariables.WorkingYear & "','Mangna','Mangna'," & Val(Billno.Text) & ",'" & ob.DateConversion(billDt.Text) & "'," & Val(txtname.Tag) & "," & Val(acname.Tag) & ",N'" & Trim(txtname.Text) & "'," & Val(txtnetar.Text) & "," & Val(txtnete.Text) & "," & Val(txtam.Text) & "," & Val(txtnetamt.Text) & "," & Val(txtnetamt.Text) & ",'Mangna'," & Val(txtlam.Text) & "," & Val(txtcolumn.Tag) & "," & Val(txtvillageid.Tag) & ")", ob.getconnection())
+            Dim spid As String = ob.FindOneString("Select account_id from column_master Where column_id=" & Val(txtcolumn.Tag) & "", ob.getconnection())
+            ob.Execute("Insert Into Acdata(Cid, Year_id, Type, Docno, Docdate, Acid, ACName, dramt,Remarks,cramt,ptype,Department) Values(1,'" & clsVariables.WorkingYear & "','Mangna'," & Billno.Text & ",'" & ob.DateConversion(billDt.Text) & "'," & spid & ",N'" & txtcolumn.Text & "'," & (txtnetamt.Text) & ",N'" & Trim(txtname.Text) & "',0,'Mangna','Mangna')", ob.getconnection())
+            ob.Execute("Insert Into Acdata(Cid, Year_id, Type, Docno, Docdate,Acid, ACName, cramt,Remarks,dramt,ptype,Department) Values(1,'" & clsVariables.WorkingYear & "','Mangna'," & Billno.Text & ",'" & ob.DateConversion(billDt.Text) & "'," & acname.Tag & ",N'" & acname.Text & "'," & (txtnetamt.Text) & ",N'" & Trim(txtname.Text) & "',0,'Mangna','Mangna')", ob.getconnection())
+            For i As Integer = 0 To dg.Rows.Count - 1
+                ob.Execute("Insert Into Acstock(Cid, Year_id, Department, Billno, Billdate,ptype,Billtype,srno,Itemid,blockNo, ServeNo, Hektar, Guntha, Aker, AHektar, AGuntha, Rate1,Amount, LPer, LFund, TotalAmount) Values(1,'" & clsVariables.WorkingYear & "','Mangna'," & Billno.Text & ",'" & ob.DateConversion(billDt.Text) & "','Mangna','Mangna'," & dg.Rows(i).Cells(0).Value & "," & dg.Rows(i).Cells(1).Tag & "," & dg.Rows(i).Cells(2).Value & "," & dg.Rows(i).Cells(3).Value & "," & dg.Rows(i).Cells(4).Value & "," & dg.Rows(i).Cells(5).Value & "," & dg.Rows(i).Cells(6).Value & "," & dg.Rows(i).Cells(7).Value & "," & dg.Rows(i).Cells(8).Value & "," & dg.Rows(i).Cells(9).Value & "," & dg.Rows(i).Cells(10).Value & "," & dg.Rows(i).Cells(11).Value & "," & dg.Rows(i).Cells(12).Value & "," & dg.Rows(i).Cells(13).Value & ")", ob.getconnection())
+            Next
+            MessageBox.Show("Save")
+            clear()
+            subclear()
+
+        End If
     End Sub
     Public Sub clear()
         txtvillageid.Clear()
@@ -236,7 +242,7 @@ Public Class FrmMangnaEntry
     End Sub
 
     Private Sub txtname_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtname.Validating
-        txtname.Tag = ob.FindOneString("select member_id from member_master where member_name=N'" & Val(txtname.Text) & "' or member_id=" & Val(txtname.Text) & "", ob.getconnection())
+        txtname.Tag = ob.FindOneString("select member_id from member_master where member_name=N'" & Trim(txtname.Text) & "' or member_id=" & Val(txtname.Text) & "", ob.getconnection())
         If Val(txtname.Tag) <> 0 Then
             txtname.Text = ob.FindOneString("select member_name from member_master where  member_id=" & Val(txtname.Tag) & "", ob.getconnection())
         End If

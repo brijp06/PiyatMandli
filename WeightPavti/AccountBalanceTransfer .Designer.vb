@@ -29,6 +29,7 @@ Partial Class AccountBalanceTransfer
         Me.Label2 = New System.Windows.Forms.Label()
         Me.fromdate = New System.Windows.Forms.MaskedTextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -98,12 +99,24 @@ Partial Class AccountBalanceTransfer
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "From Date:-"
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Shruti", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.Red
+        Me.Label4.Location = New System.Drawing.Point(3, 76)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(451, 21)
+        Me.Label4.TabIndex = 14
+        Me.Label4.Text = "સુચના:-જે વર્ષ માં ટ્રાન્સફર કરવનું હોઈ એ વર્ષ માં રહી જુના વર્ષ ની તારીખ મારવી"
+        '
         'AccountBalanceTransfer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(382, 86)
+        Me.ClientSize = New System.Drawing.Size(454, 106)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.yearid)
         Me.Controls.Add(Me.Label3)
@@ -126,4 +139,5 @@ Partial Class AccountBalanceTransfer
     Friend WithEvents Label2 As Label
     Friend WithEvents fromdate As MaskedTextBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label4 As Label
 End Class

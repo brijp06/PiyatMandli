@@ -4,7 +4,7 @@ Imports ComponentAce.Compression.ZipForge
 Imports ComponentAce.Compression.Archiver
 Public Class MdiMain
     Public cl As Integer
-    
+
     Private Sub MdiMain_FormClosed(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
         If cl <> 1 Then
             'Microsoft.Win32.Registry.SetValue("Hkey_Current_User\Control Panel\International", "sShortDate", clsVariables.ScurrentSysDateFromate)
@@ -24,12 +24,49 @@ Public Class MdiMain
             'LeaveDetailEntry.droptable()
             'DaSlabEntry.drop()
             Application.Exit()
-       
 
         End If
     End Sub
     Private Sub MdiMain_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
         If cl <> 1 Then
+            If MessageBox.Show("Do You Want To Backup", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
+                'Shell(CurDir() & "\Autobackup\Autobackup.exe")
+                Dim databasename As String = dbname
+                Dim cn As New System.Data.SqlClient.SqlConnection
+                Dim cmd As System.Data.SqlClient.SqlCommand
+
+                'AddRecord("backup database " & databasename & " to disk='E:\Project\Backup\" & databasename & Now.Day & Now.Month & Now.Year & ".bak'")
+                cn.ConnectionString = ob.Getconn
+                cmd = New System.Data.SqlClient.SqlCommand("backup database " & databasename & " to disk='" & Application.StartupPath & "\DailyBackup\" & databasename & Now.Day & Now.Month & Now.Year & ".bak'", cn)
+                cn.Open()
+                cmd.ExecuteNonQuery()
+                cn.Close()
+                Dim archiver As ZipForge = New ZipForge()
+                Try
+                    ' The name of the ZIP file to be created
+                    archiver.FileName = Application.StartupPath & "\DailyBackup\" & databasename & Now.Day & Now.Month & Now.Year & ".Zip"
+                    ' Specify FileMode.Create to create a new ZIP file
+                    ' or FileMode.Open to open an existing archive
+                    archiver.OpenArchive(System.IO.FileMode.Create)
+                    ' Default path for all operations                
+                    archiver.BaseDir = "D:"
+                    ' Add file C:\file.txt the archive; wildcards can be used as well                
+                    archiver.AddFiles(Application.StartupPath & "\DailyBackup\" & databasename & Now.Day & Now.Month & Now.Year & ".bak")
+                    ' Close archive
+                    archiver.CloseArchive()
+                    If File.Exists(Application.StartupPath & "\DailyBackup\" & databasename & Now.Day & Now.Month & Now.Year & ".bak") Then
+                        File.Delete(Application.StartupPath & "\DailyBackup\" & databasename & Now.Day & Now.Month & Now.Year & ".bak")
+                        MessageBox.Show("Delete")
+                    Else
+                    End If
+                    MessageBox.Show("Backup Done")
+                    ' Catch all exceptions of the ArchiverException type
+                Catch ae As ArchiverException
+                    Console.WriteLine("Message: {0} Error code: {1}", ae.Message, ae.ErrorCode)
+                    ' Wait for keypress
+                    Console.ReadLine()
+                End Try
+            End If
             If MessageBox.Show("Do You Want To Exit Application " & Application.ProductName & " ...?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.No Then
                 e.Cancel = True
                 Me.Enabled = True
@@ -74,7 +111,7 @@ Public Class MdiMain
             MsgBox(ex.Message.ToString)
         End Try
     End Sub
-  
+
     Private Sub MdiMain_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.Text = sysname & "         Wel Come Login User Id:" & guser & "        Login Time :" & Login.tm
         loadimage()
@@ -136,10 +173,10 @@ Public Class MdiMain
         Button2_Click(Nothing, Nothing)
         WeightPavtiReport.Show()
     End Sub
-   Private Sub ExitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem.Click
+    Private Sub ExitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem.Click
         Me.Close()
     End Sub
-   
+
     Public frm As String
     'Private Sub AUserMasterToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
     '    UserMst.Tag = "User Master"
@@ -1827,5 +1864,30 @@ Public Class MdiMain
 
     Private Sub KitivhBlºsTiAfrToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KitivhBlºsTiAfrToolStripMenuItem.Click
         AccountBalanceTransfer.Show()
+    End Sub
+
+    Private Sub NvVPBnivvToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NvVPBnivvToolStripMenuItem.Click
+        CreateNewYear.Show()
+    End Sub
+
+    Private Sub HToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HToolStripMenuItem.Click
+        CreateNewYear.Show()
+    End Sub
+
+    Private Sub IAccoutBalanceTrasferToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IAccoutBalanceTrasferToolStripMenuItem.Click
+        AccountBalanceTransfer.Show()
+    End Sub
+
+    Private Sub RijmlRpiTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RijmlRpiTToolStripMenuItem.Click
+        Rojmed.Show()
+
+    End Sub
+
+    Private Sub SBisdSrTiºsfrToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SBisdSrTiºsfrToolStripMenuItem.Click
+        FrmShareTrasfer.Show()
+    End Sub
+
+    Private Sub SrKitivhToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SrKitivhToolStripMenuItem.Click
+        Shareledger.Show()
     End Sub
 End Class

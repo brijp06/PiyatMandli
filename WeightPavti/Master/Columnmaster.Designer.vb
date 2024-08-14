@@ -152,24 +152,22 @@ Partial Class Columnmaster
         '
         Me.txtlimit.BackColor = System.Drawing.Color.White
         Me.txtlimit.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtlimit.Location = New System.Drawing.Point(172, 226)
+        Me.txtlimit.Location = New System.Drawing.Point(106, 114)
         Me.txtlimit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtlimit.Name = "txtlimit"
         Me.txtlimit.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.txtlimit.Size = New System.Drawing.Size(116, 23)
-        Me.txtlimit.TabIndex = 11
-        Me.txtlimit.Visible = False
+        Me.txtlimit.TabIndex = 90
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(123, 230)
+        Me.Label5.Location = New System.Drawing.Point(57, 118)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(43, 15)
         Me.Label5.TabIndex = 10
         Me.Label5.Text = "Limit :"
-        Me.Label5.Visible = False
         '
         'ComboStatus
         '

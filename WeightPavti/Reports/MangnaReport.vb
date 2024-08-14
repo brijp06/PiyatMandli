@@ -7,7 +7,7 @@ Public Class MangnaReport
         Dg.Columns(0).Width = 350
         Dim item As New ListViewItem
         item = Dg.Items.Add("Mangna Report")
-
+        item = Dg.Items.Add("Mangna Report Code")
 
         'item = Dg.Items.Add("Account Ledger Report Cash")
 
@@ -77,20 +77,37 @@ Public Class MangnaReport
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Dim ssql As String = ""
-        ssql = "{Acmain.Billdate}>=#" & ob.DateConversion(TxtfromDate.Text) & "#"
-        ssql = ssql & " and {Acmain.Billdate}<=#" & ob.DateConversion(TxtToDate.Text) & "#"
-        ssql = ssql & " and {Acmain.Ptype}='Mangna'"
-        If Val(Membname.Tag) <> 0 Then
-            ssql = ssql & " and {Acmain.partyid}=" & Val(Membname.Tag) & ""
+        If Dg.SelectedItems(0).SubItems(0).Text = "Mangna Report" Then
+            Dim ssql As String = ""
+            ssql = "{Acmain.Billdate}>=#" & ob.DateConversion(TxtfromDate.Text) & "#"
+            ssql = ssql & " and {Acmain.Billdate}<=#" & ob.DateConversion(TxtToDate.Text) & "#"
+            ssql = ssql & " and {Acmain.Ptype}='Mangna'"
+            If Val(Membname.Tag) <> 0 Then
+                ssql = ssql & " and {Acmain.partyid}=" & Val(Membname.Tag) & ""
+            End If
+            clsVariables.ReportSql = ssql
+            clsVariables.FromDate = TxtfromDate.Text
+            clsVariables.ToDate = TxtToDate.Text
+            clsVariables.Repheader = "Mangna Report"
+            clsVariables.ReportName = "MangraReport.rpt"
+            Dim frm As New Reportform
+            frm.Show()
+        Else
+            Dim ssql As String = ""
+            ssql = "{Acmain.Billdate}>=#" & ob.DateConversion(TxtfromDate.Text) & "#"
+            ssql = ssql & " and {Acmain.Billdate}<=#" & ob.DateConversion(TxtToDate.Text) & "#"
+            ssql = ssql & " and {Acmain.Ptype}='Mangna'"
+            If Val(Membname.Tag) <> 0 Then
+                ssql = ssql & " and {Acmain.partyid}=" & Val(Membname.Tag) & ""
+            End If
+            clsVariables.ReportSql = ssql
+            clsVariables.FromDate = TxtfromDate.Text
+            clsVariables.ToDate = TxtToDate.Text
+            clsVariables.Repheader = "Mangna Report Code Wise"
+            clsVariables.ReportName = "MangraReportcode.rpt"
+            Dim frm As New Reportform
+            frm.Show()
         End If
-        clsVariables.ReportSql = ssql
-        clsVariables.FromDate = TxtfromDate.Text
-        clsVariables.ToDate = TxtToDate.Text
-        clsVariables.Repheader = "Mangna Report"
-        clsVariables.ReportName = "MangraReport.rpt"
-        Dim frm As New Reportform
-        frm.Show()
     End Sub
     Dim gRojmel As String = "Rojmel"
 

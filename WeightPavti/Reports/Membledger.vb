@@ -15,7 +15,7 @@ Public Class Membledger
         auto()
         autoname()
         autotwo()
-        TxtfromDate.Text = gFinYearBegin
+        TxtfromDate.Text = "01/04/2022"
         TxtToDate.Text = Format(Now, "dd/MM/yyyy")
     End Sub
     Public Sub auto()
@@ -106,7 +106,7 @@ Public Class Membledger
             frm.Show()
         ElseIf Dg.SelectedItems(0).SubItems(0).Text = "Account Balance Report" Then
             ob.Execute("delete from tmpbalance", ob.getconnection())
-            Dim dt As DataTable = ob.Returntable("select Partyid,m.Member_name,SUM(Paymentamt) as  py,SUM(receiptamt) as rc from Acmain inner join MEMBER_MASTER as m on Acmain.Partyid=m.Member_Id  where  Billdate<='" & ob.DateConversion(TxtToDate.Text) & "'  group by Partyid,m.Member_name  order by Partyid", ob.getconnection())
+            Dim dt As DataTable = ob.Returntable("select Partyid,m.Member_name,SUM(Paymentamt) as  py,SUM(receiptamt) as rc from Acmain inner join MEMBER_MASTER as m on Acmain.Partyid=m.Member_Id  where  Billdate<='" & ob.DateConversion(TxtToDate.Text) & "' and acid=" & Acname.Tag & "  group by Partyid,m.Member_name  order by Partyid", ob.getconnection())
             For i As Integer = 0 To dt.Rows.Count - 1
                 Dim bal As Double = 0
                 bal = Val(dt.Rows(i).Item("rc")) - Val(dt.Rows(i).Item("py"))

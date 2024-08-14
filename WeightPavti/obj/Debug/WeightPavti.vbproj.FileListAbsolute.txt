@@ -175,8 +175,6 @@ E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.dll
 E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.Drive.v3.dll
 E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Google.Apis.PlatformServices.dll
 E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Newtonsoft.Json.dll
-E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\System.Web.Services.dll
-E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\ZipForge.dll
 E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\stdole.dll
 E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\AdvancedDataGridView.xml
 E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
@@ -231,4 +229,7 @@ E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\bin\Debug\AxInterop.WMPLib.d
 E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.exe
 E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.xml
 E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.pdb
-E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbprojResolveAssemblyReference.cache
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.AssemblyReference.cache
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.CoreCompileInputs.cache
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.vbproj.CopyComplete
+E:\Project\brij\PiyatMandli\WeightPavti\WeightPavti\obj\Debug\WeightPavti.FrmShareTrasfer.resources
