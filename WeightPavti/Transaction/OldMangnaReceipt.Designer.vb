@@ -23,6 +23,7 @@ Partial Class OldMangnaReceipt
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Cmbdepartment = New System.Windows.Forms.ComboBox()
         Me.txtdisamt = New System.Windows.Forms.TextBox()
         Me.netamt = New System.Windows.Forms.TextBox()
@@ -67,7 +68,8 @@ Partial Class OldMangnaReceipt
         Me.lbldate = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.DG1 = New System.Windows.Forms.DataGridView()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.txtprint = New System.Windows.Forms.TextBox()
+        Me.Label15 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -78,6 +80,8 @@ Partial Class OldMangnaReceipt
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.txtprint)
+        Me.GroupBox1.Controls.Add(Me.Label15)
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.Cmbdepartment)
         Me.GroupBox1.Controls.Add(Me.txtdisamt)
@@ -120,6 +124,20 @@ Partial Class OldMangnaReceipt
         Me.GroupBox1.Size = New System.Drawing.Size(483, 389)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Black
+        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button1.Location = New System.Drawing.Point(238, 16)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(77, 28)
+        Me.Button1.TabIndex = 58
+        Me.Button1.Text = "&Find"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Cmbdepartment
         '
@@ -554,19 +572,25 @@ Partial Class OldMangnaReceipt
         Me.DG1.Size = New System.Drawing.Size(10, 163)
         Me.DG1.TabIndex = 0
         '
-        'Button1
+        'txtprint
         '
-        Me.Button1.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(238, 16)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(77, 28)
-        Me.Button1.TabIndex = 58
-        Me.Button1.Text = "&Find"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.txtprint.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtprint.Location = New System.Drawing.Point(430, 184)
+        Me.txtprint.Name = "txtprint"
+        Me.txtprint.Size = New System.Drawing.Size(47, 23)
+        Me.txtprint.TabIndex = 55589
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.BackColor = System.Drawing.Color.Transparent
+        Me.Label15.Enabled = False
+        Me.Label15.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(392, 187)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(38, 15)
+        Me.Label15.TabIndex = 55590
+        Me.Label15.Text = "Print"
         '
         'OldMangnaReceipt
         '
@@ -641,4 +665,6 @@ Partial Class OldMangnaReceipt
     Friend WithEvents Billamt As TextBox
     Friend WithEvents Cmbdepartment As ComboBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents txtprint As TextBox
+    Friend WithEvents Label15 As Label
 End Class

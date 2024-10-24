@@ -14,7 +14,7 @@ Public Class FrmMangnaEntry
         TxtFill("Select member_name from member_master", txtname)
         TxtFill("Select name from itemgroup", txtcolumn)
         Billno.Text = ob.FindOneString("Select isnull(max(Billno),0)+1 from Acmain Where Year_id='" & clsVariables.WorkingYear & "'  and ptype='Mangna'", ob.getconnection())
-        acname.Tag = 15
+        acname.Tag = 22
         acname.Text = ob.FindOneString("select Account_name from Account_master Where Account_id=" & acname.Tag & "", ob.getconnection())
         Dim msk As String = billDt.Mask
         billDt.Text = Now
@@ -136,6 +136,7 @@ Public Class FrmMangnaEntry
         If dt.Rows.Count > 0 Then
             ' If MessageBox.Show("Do You Want To Edit This Entry...?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
             Billno.Text = membid
+            billDt.Text = dt.Rows(0).Item("billdate")
             txtname.Tag = dt.Rows(0).Item("partyid")
             txtname.Text = ob.FindOneString("select member_name from Member_master where member_id=" & Val(dt.Rows(0).Item("partyid")) & "", ob.getconnection())
             txtvillageid.Tag = dt.Rows(0).Item("clid")
@@ -200,8 +201,9 @@ Public Class FrmMangnaEntry
             ob.Execute("delete from acmain where billno=" & Val(Billno.Text) & " and ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
             ob.Execute("delete from Acdata where Docno=" & Val(Billno.Text) & "  and ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
             ob.Execute("delete from Acstock where billno=" & Val(Billno.Text) & " and  ptype='Mangna' and year_id=" & aq(clsVariables.WorkingYear) & "", ob.getconnection())
-            ob.Execute("Insert Into Acmain(Cid, Year_id, Department, Billtype, Billno, Billdate, PartyId, Acid, Remarks, Loanno, Fdno,Basic, Netamt,Paymentamt,ptype,rate,tid,clid) Values(" & clsVariables.CompnyId & ",'" & clsVariables.WorkingYear & "','Mangna','Mangna'," & Val(Billno.Text) & ",'" & ob.DateConversion(billDt.Text) & "'," & Val(txtname.Tag) & "," & Val(acname.Tag) & ",N'" & Trim(txtname.Text) & "'," & Val(txtnetar.Text) & "," & Val(txtnete.Text) & "," & Val(txtam.Text) & "," & Val(txtnetamt.Text) & "," & Val(txtnetamt.Text) & ",'Mangna'," & Val(txtlam.Text) & "," & Val(txtcolumn.Tag) & "," & Val(txtvillageid.Tag) & ")", ob.getconnection())
             Dim spid As String = ob.FindOneString("Select account_id from column_master Where column_id=" & Val(txtcolumn.Tag) & "", ob.getconnection())
+
+            ob.Execute("Insert Into Acmain(Cid, Year_id, Department, Billtype, Billno, Billdate, PartyId, Acid, Remarks, Loanno, Fdno,Basic, Netamt,Paymentamt,ptype,rate,tid,clid) Values(" & clsVariables.CompnyId & ",'" & clsVariables.WorkingYear & "','Mangna','Mangna'," & Val(Billno.Text) & ",'" & ob.DateConversion(billDt.Text) & "'," & Val(txtname.Tag) & "," & Val(spid) & ",N'" & Trim(txtname.Text) & "'," & Val(txtnetar.Text) & "," & Val(txtnete.Text) & "," & Val(txtam.Text) & "," & Val(txtnetamt.Text) & "," & Val(txtnetamt.Text) & ",'Mangna'," & Val(txtlam.Text) & "," & Val(txtcolumn.Tag) & "," & Val(txtvillageid.Tag) & ")", ob.getconnection())
             ob.Execute("Insert Into Acdata(Cid, Year_id, Type, Docno, Docdate, Acid, ACName, dramt,Remarks,cramt,ptype,Department) Values(1,'" & clsVariables.WorkingYear & "','Mangna'," & Billno.Text & ",'" & ob.DateConversion(billDt.Text) & "'," & spid & ",N'" & txtcolumn.Text & "'," & (txtnetamt.Text) & ",N'" & Trim(txtname.Text) & "',0,'Mangna','Mangna')", ob.getconnection())
             ob.Execute("Insert Into Acdata(Cid, Year_id, Type, Docno, Docdate,Acid, ACName, cramt,Remarks,dramt,ptype,Department) Values(1,'" & clsVariables.WorkingYear & "','Mangna'," & Billno.Text & ",'" & ob.DateConversion(billDt.Text) & "'," & acname.Tag & ",N'" & acname.Text & "'," & (txtnetamt.Text) & ",N'" & Trim(txtname.Text) & "',0,'Mangna','Mangna')", ob.getconnection())
             For i As Integer = 0 To dg.Rows.Count - 1

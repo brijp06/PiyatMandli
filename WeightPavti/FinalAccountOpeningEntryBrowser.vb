@@ -8,22 +8,23 @@ Public Class FinalAccountOpeningEntryBrowser
     Private Sub Butreferesh_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Butreferesh.Click
         Try
             Dim sSql As String
-            sSql = "SELECT MOB.Account_Id, MM.Account_name,"
-            sSql = sSql & "  MOB.cr_opening, MOB.dr_opening "
-            sSql = sSql & " FROM FINAL_ACCOUNT_OPENING_BALANCE AS MOB LEFT OUTER JOIN"
-            sSql = sSql & " Account_Master AS MM ON MOB.Company_Id = MM.Company_Id AND MOB.Account_Id = MM.Account_id "
-            sSql = sSql & " where MOB.Company_id=" & clsVariables.CompnyId
-            sSql = sSql & " and MOB.Year_id=" & aq(clsVariables.WorkingYear)
-            If Len(TXtAccountId.Text) > 0 Then
-                sSql = sSql & " and MOb.Account_Id=" & Val(TXtAccountId.Text)
-            End If
-            If Len(TXtdepartmentId.Text) > 0 Then
-                sSql = sSql & " and MM.department_Id=" & Val(TXtdepartmentId.Text)
-            End If
-            If Len(TxtAccountName.Text) > 0 Then
-                sSql = sSql & " and MM.Account_name like '" & AddQuote(TxtAccountName.Text) & "%'"
-            End If
-            sSql = sSql & " ORDER BY MOB.Account_Id"
+            'sSql = "SELECT MOB.Account_Id, MM.Account_name,"
+            'sSql = sSql & "  MOB.cr_opening, MOB.dr_opening "
+            'sSql = sSql & " FROM FINAL_ACCOUNT_OPENING_BALANCE AS MOB LEFT OUTER JOIN"
+            'sSql = sSql & " Account_Master AS MM ON MOB.Company_Id = MM.Company_Id AND MOB.Account_Id = MM.Account_id "
+            'sSql = sSql & " where MOB.Company_id=" & clsVariables.CompnyId
+            'sSql = sSql & " and MOB.Year_id=" & aq(clsVariables.WorkingYear)
+            'If Len(TXtAccountId.Text) > 0 Then
+            '    sSql = sSql & " and MOb.Account_Id=" & Val(TXtAccountId.Text)
+            'End If
+            'If Len(TXtdepartmentId.Text) > 0 Then
+            '    sSql = sSql & " and MM.department_Id=" & Val(TXtdepartmentId.Text)
+            'End If
+            'If Len(TxtAccountName.Text) > 0 Then
+            '    sSql = sSql & " and MM.Account_name like '" & AddQuote(TxtAccountName.Text) & "%'"
+            'End If
+            'sSql = sSql & " ORDER BY MOB.Account_Id"
+            sSql = "select acid,account_master.account_name,cramt,dramt from acdata inner join account_master on account_master.account_id=acdata.acid where year_id='" & clsVariables.WorkingYear & "' and TYPE='opening' "
             DG.DataSource = ob.Returntable(sSql, ob.getconnection)
             lbTotal.Text = "Total : " & DG.Rows.Count
             total()
@@ -208,7 +209,7 @@ Public Class FinalAccountOpeningEntryBrowser
         End If
         If DG.Rows.Count > 0 Then
             FInalAccountOpeningEntry.vad = 1
-            FInalAccountOpeningEntry.vAccount_id = ob.IfNullThen(DG.Rows(DG.CurrentRow.Index).DataBoundItem("Account_Id"), 0)
+            FInalAccountOpeningEntry.vAccount_id = ob.IfNullThen(DG.Rows(DG.CurrentRow.Index).DataBoundItem("acid"), 0)
             FInalAccountOpeningEntry.Tag = "Account Opening Balance Entry (Account)"
             FInalAccountOpeningEntry.Show()
         End If

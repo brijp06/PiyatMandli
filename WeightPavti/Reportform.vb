@@ -153,7 +153,7 @@ Public Class Reportform
             crReportDocument.Load(clsVariables.RptLocation & clsVariables.ReportName)
             Dim i As Integer
             i = 0
-            If LCase(clsVariables.ReportName) <> LCase("NewRojmalReport.rpt") And LCase(clsVariables.ReportName) <> LCase("BankBookReport.rpt") And LCase(clsVariables.ReportName) <> LCase("FinalTrialBalanceTFormat.rpt") And LCase(clsVariables.ReportName) <> LCase("FinalBalanceSheetTFormat.rpt") And LCase(clsVariables.ReportName) <> LCase("PayslipPrinting.rpt") Then
+            If LCase(clsVariables.ReportName) <> LCase("NewRojmalReport.rpt") And LCase(clsVariables.ReportName) <> LCase("NewRojmalReportDailydetail.rpt") And LCase(clsVariables.ReportName) <> LCase("FinalTrialBalanceTFormat.rpt") And LCase(clsVariables.ReportName) <> LCase("FinalBalanceSheetTFormat.rpt") And LCase(clsVariables.ReportName) <> LCase("NewRojmalReportDaily.rpt") Then
                 'If LCase(clsVariables.ReportName) <> LCase("NewRojmalReport.rpt") And LCase(clsVariables.ReportName) <> LCase("BankBookReport.rpt") Or LCase(clsVariables.ReportName) = LCase("ItemSummaryReport.rpt") Or LCase(clsVariables.ReportName) = LCase("CottonreceiptReport.rpt") Or LCase(clsVariables.ReportName) = LCase("CanereceiptReport.rpt") Then
                 If LCase(clsVariables.ReportName) = LCase("OfficeReport.Rpt") Or LCase(clsVariables.ReportName) = LCase("JaminDetailReport.Rpt") Then
                     Do While i < crReportDocument.Subreports.Count

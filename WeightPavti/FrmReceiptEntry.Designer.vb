@@ -23,6 +23,7 @@ Partial Class FrmReceiptEntry
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.txtintrest = New System.Windows.Forms.TextBox()
         Me.txtdisamt = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -65,6 +66,8 @@ Partial Class FrmReceiptEntry
         Me.dg = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -82,7 +85,6 @@ Partial Class FrmReceiptEntry
         Me.ButCAncel = New System.Windows.Forms.Button()
         Me.ButPrint = New System.Windows.Forms.Button()
         Me.ButDelete = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.dg, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -133,9 +135,23 @@ Partial Class FrmReceiptEntry
         Me.GroupBox1.Font = New System.Drawing.Font("Cambria", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(4, -5)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(863, 285)
+        Me.GroupBox1.Size = New System.Drawing.Size(992, 285)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.Black
+        Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button4.Location = New System.Drawing.Point(605, 14)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(85, 28)
+        Me.Button4.TabIndex = 55592
+        Me.Button4.Text = "&Find"
+        Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'txtintrest
         '
@@ -223,7 +239,7 @@ Partial Class FrmReceiptEntry
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button3.Location = New System.Drawing.Point(673, 160)
+        Me.Button3.Location = New System.Drawing.Point(698, 17)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(9, 15)
         Me.Button3.TabIndex = 295
@@ -514,7 +530,7 @@ Partial Class FrmReceiptEntry
         Me.GroupBox2.Font = New System.Drawing.Font("HARIKRISHNA", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(6, 283)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(862, 254)
+        Me.GroupBox2.Size = New System.Drawing.Size(990, 254)
         Me.GroupBox2.TabIndex = 2
         Me.GroupBox2.TabStop = False
         '
@@ -523,25 +539,35 @@ Partial Class FrmReceiptEntry
         Me.dg.AllowUserToAddRows = False
         Me.dg.BackgroundColor = System.Drawing.Color.White
         Me.dg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dg.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column8, Me.Column2, Me.Column3, Me.Column11, Me.Column12, Me.Column14, Me.Column16, Me.Column17, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column9})
-        Me.dg.Location = New System.Drawing.Point(-2, 13)
+        Me.dg.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column8, Me.Column10, Me.Column13, Me.Column2, Me.Column3, Me.Column11, Me.Column12, Me.Column14, Me.Column16, Me.Column17, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column9})
+        Me.dg.Location = New System.Drawing.Point(-1, 13)
         Me.dg.Name = "dg"
         Me.dg.RowHeadersVisible = False
         Me.dg.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dg.Size = New System.Drawing.Size(855, 228)
+        Me.dg.Size = New System.Drawing.Size(981, 228)
         Me.dg.TabIndex = 1
         '
         'Column1
         '
         Me.Column1.HeaderText = "n>"
         Me.Column1.Name = "Column1"
-        Me.Column1.Width = 40
+        Me.Column1.Width = 30
         '
         'Column8
         '
         Me.Column8.HeaderText = "gim n&> nim"
         Me.Column8.Name = "Column8"
-        Me.Column8.Width = 140
+        '
+        'Column10
+        '
+        Me.Column10.HeaderText = "ki[lm ki[D"
+        Me.Column10.Name = "Column10"
+        Me.Column10.Width = 60
+        '
+        'Column13
+        '
+        Me.Column13.HeaderText = "ki[lm nim"
+        Me.Column13.Name = "Column13"
         '
         'Column2
         '
@@ -680,26 +706,12 @@ Partial Class FrmReceiptEntry
         Me.ButDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.ButDelete.UseVisualStyleBackColor = True
         '
-        'Button4
-        '
-        Me.Button4.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.Color.Black
-        Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button4.Location = New System.Drawing.Point(605, 14)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(85, 28)
-        Me.Button4.TabIndex = 55592
-        Me.Button4.Text = "&Find"
-        Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Button4.UseVisualStyleBackColor = True
-        '
         'FrmReceiptEntry
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightPink
-        Me.ClientSize = New System.Drawing.Size(879, 624)
+        Me.ClientSize = New System.Drawing.Size(1001, 624)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -763,8 +775,11 @@ Partial Class FrmReceiptEntry
     Friend WithEvents txtdisamt As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents txtdis As TextBox
+    Friend WithEvents Button4 As Button
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column8 As DataGridViewTextBoxColumn
+    Friend WithEvents Column10 As DataGridViewTextBoxColumn
+    Friend WithEvents Column13 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Column11 As DataGridViewTextBoxColumn
@@ -777,5 +792,4 @@ Partial Class FrmReceiptEntry
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
     Friend WithEvents Column7 As DataGridViewTextBoxColumn
     Friend WithEvents Column9 As DataGridViewTextBoxColumn
-    Friend WithEvents Button4 As Button
 End Class

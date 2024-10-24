@@ -61,7 +61,7 @@ Public Class OldMangnaReceipt
         Dg.ColumnHeadersDefaultCellStyle.Font = New Font("Cambria", 9, FontStyle.Bold)
         DG1.ColumnHeadersDefaultCellStyle.Font = New Font("Cambria", 9, FontStyle.Bold)
         Cmbdepartment.SelectedIndex = 0
-
+        txtprint.Text = 1
     End Sub
     Public Sub TxtFill(ByVal Sqlstring As String, ByVal txtBox As TextBox)
         Dim sStringColl As New AutoCompleteStringCollection
@@ -106,7 +106,11 @@ Public Class OldMangnaReceipt
 
 
 
-        ob.Execute("Insert Into Acmain(Cid, Year_id, Department, Billtype, Billno, Billdate, PartyId, Acid, Netamt,ReceiptAmt,intamt,ptype,cbj,basic,roundoff,per,fdno,clid,tid) Values(" & clsVariables.CompnyId & ",'" & clsVariables.WorkingYear & "'," & aq(Cmbdepartment.Text) & "," & aq(cmbtype.Text) & "," & Val(Billno.Text) & ",'" & ob.DateConversion(billDt.Text) & "'," & Val(sname.Tag) & ",21," & Val(netamt.Text) & "," & Val(netamt.Text) & "," & intamt.Text & ",'OReceipt'," & payac.Tag & "," & Val(Billamt.Text) & "," & Val(txtdisamt.Text) & "," & Val(txtprovac.Text) & "," & Val(Intac.Text) & "," & Val(txtcolumn.Tag) & "," & Val(txtvillageid.Tag) & ")", ob.getconnection())
+        If Val(txtdisamt.Text) <> 0 Then
+            ob.Execute("Insert Into Acmain(Cid, Year_id, Department, Billtype, Billno, Billdate, PartyId, Acid, Netamt,ReceiptAmt,intamt,ptype,cbj,basic,roundoff,per,fdno,tid,clid,remarks) Values(" & clsVariables.CompnyId & ",'" & clsVariables.WorkingYear & "'," & aq(Cmbdepartment.Text) & "," & aq(cmbtype.Text) & "," & Val(Billno.Text) & ",'" & ob.DateConversion(billDt.Text) & "'," & Val(sname.Tag) & ",21," & Val(netamt.Text) & "," & Val(Billamt.Text) - Val(txtdisamt.Text) & "," & intamt.Text & ",'OReceipt'," & payac.Tag & "," & Val(Billamt.Text) & "," & Val(txtdisamt.Text) & "," & Val(txtprovac.Text) & "," & Val(Intac.Text) & "," & Val(txtcolumn.Tag) & "," & Val(txtvillageid.Tag) & ",N'" & Trim(Txtremark.Text) & "')", ob.getconnection())
+        Else
+            ob.Execute("Insert Into Acmain(Cid, Year_id, Department, Billtype, Billno, Billdate, PartyId, Acid, Netamt,ReceiptAmt,intamt,ptype,cbj,basic,roundoff,per,fdno,tid,clid,remarks) Values(" & clsVariables.CompnyId & ",'" & clsVariables.WorkingYear & "'," & aq(Cmbdepartment.Text) & "," & aq(cmbtype.Text) & "," & Val(Billno.Text) & ",'" & ob.DateConversion(billDt.Text) & "'," & Val(sname.Tag) & ",21," & Val(netamt.Text) & "," & Val(Billamt.Text) & "," & Val(intamt.Text) & ",'OReceipt'," & payac.Tag & "," & Val(Billamt.Text) & "," & Val(txtdisamt.Text) & "," & Val(txtprovac.Text) & "," & Val(Intac.Text) & "," & Val(txtcolumn.Tag) & "," & Val(txtvillageid.Tag) & ",N'" & Trim(Txtremark.Text) & "')", ob.getconnection())
+        End If
         ob.Execute("Insert Into Acdata(Cid, Year_id, Type, Docno, Docdate, Acid, ACName, cramt,Remarks,dramt,ptype,Department) Values(1,'" & clsVariables.WorkingYear & "','" & cmbtype.Text & "'," & Billno.Text & ",'" & ob.DateConversion(billDt.Text) & "',21,N'-'," & Val(Billamt.Text) & ",N'" & Trim(Txtremark.Text) & "',0,'OReceipt','" & Cmbdepartment.Text & "')", ob.getconnection())
         ob.Execute("Insert Into Acdata(Cid, Year_id, Type, Docno, Docdate,Acid, ACName, dramt,Remarks,cramt,ptype,Department) Values(1,'" & clsVariables.WorkingYear & "','" & cmbtype.Text & "'," & Billno.Text & ",'" & ob.DateConversion(billDt.Text) & "'," & Val(payac.Tag) & ",N'" & acname.Text & "'," & Val(netamt.Text) & ",N'" & Trim(Txtremark.Text) & "',0,'OReceipt','" & Cmbdepartment.Text & "')", ob.getconnection())
         ob.Execute("Insert Into Acdata(Cid, Year_id, Type, Docno, Docdate, Acid, ACName, cramt,Remarks,dramt,ptype,Department) Values(1,'" & clsVariables.WorkingYear & "','" & cmbtype.Text & "'," & Billno.Text & ",'" & ob.DateConversion(billDt.Text) & "',24,N'-'," & Val(intamt.Text) & ",N'" & Trim(Txtremark.Text) & "',0,'OReceipt','" & Cmbdepartment.Text & "')", ob.getconnection())
@@ -125,7 +129,7 @@ Public Class OldMangnaReceipt
         sname.Clear()
         sname.Tag = 0
         Txtremark.Clear()
-        Netamt.Clear()
+        netamt.Clear()
         acname.Clear()
         'Columnname.Clear()
         percent.Clear()
@@ -135,7 +139,7 @@ Public Class OldMangnaReceipt
         payac.Clear()
         cmbtype.Text = ""
         Fixno.Clear()
-        Intamt.Clear()
+        intamt.Clear()
 
         Fixno.Enabled = True
     End Sub
@@ -232,29 +236,29 @@ Public Class OldMangnaReceipt
             'If MessageBox.Show("Do You Want To Edit This Entry...?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
 
             billDt.Text = dt.Rows(0).Item("Billdate")
-                sname.Tag = dt.Rows(0).Item("partyid")
-                sname.Text = ob.FindOneString("select Member_name from Member_Master where Member_id=" & dt.Rows(0).Item("partyid") & "", ob.getconnection())
-                cmbtype.Text = dt.Rows(0).Item("Billtype")
-                acname.Tag = dt.Rows(0).Item("cbj")
-                acname.Text = ob.FindOneString("Select Account_Name From Account_Master Where Account_Id=" & Val(acname.Tag) & "", ob.getconnection())
-                'Remarks.Text = dt.Rows(0).Item("Remarks")
-                Billamt.Text = dt.Rows(0).Item("basic")
-                intamt.Text = dt.Rows(0).Item("Intamt")
-                netamt.Text = dt.Rows(0).Item("Netamt")
-                txtdisamt.Text = dt.Rows(0).Item("roundoff")
-                'txtintrest.Text = dt.Rows(0).Item("per")
-                'txtdis.Text = dt.Rows(0).Item("fdno")
-                txtcolumn.Tag = dt.Rows(0).Item("clid")
-                txtvillageid.Tag = dt.Rows(0).Item("tid")
-                If (txtcolumn.Tag) <> 0 Then
-                    txtcolumn.Text = ob.FindOneString("select name from itemgroup where  code=" & Val(txtcolumn.Tag) & "", ob.getconnection())
-                End If
-                If Val(txtvillageid.Tag) <> 0 Then
-                    txtvillageid.Text = ob.FindOneString("select column_name from column_master where  column_id=" & Val(txtvillageid.Tag) & "", ob.getconnection())
-                End If
-                payac.Tag = dt.Rows(0).Item("cbj")
-                payac.Text = ob.FindOneString("Select Account_Name From Account_Master Where Account_Id=" & Val(payac.Tag) & "", ob.getconnection())
-                acname.Enabled = False
+            sname.Tag = dt.Rows(0).Item("partyid")
+            sname.Text = ob.FindOneString("select Member_name from Member_Master where Member_id=" & dt.Rows(0).Item("partyid") & "", ob.getconnection())
+            cmbtype.Text = dt.Rows(0).Item("Billtype")
+            acname.Tag = dt.Rows(0).Item("cbj")
+            acname.Text = ob.FindOneString("Select Account_Name From Account_Master Where Account_Id=" & Val(acname.Tag) & "", ob.getconnection())
+            Txtremark.Text = ob.IfNullThen(dt.Rows(0).Item("Remarks"), "")
+            Billamt.Text = dt.Rows(0).Item("basic")
+            intamt.Text = dt.Rows(0).Item("Intamt")
+            netamt.Text = dt.Rows(0).Item("Netamt")
+            txtdisamt.Text = dt.Rows(0).Item("roundoff")
+            'txtintrest.Text = dt.Rows(0).Item("per")
+            'txtdis.Text = dt.Rows(0).Item("fdno")
+            txtcolumn.Tag = dt.Rows(0).Item("tid")
+            txtvillageid.Tag = dt.Rows(0).Item("clid")
+            If (txtcolumn.Tag) <> 0 Then
+                txtcolumn.Text = ob.FindOneString("select name from itemgroup where  code=" & Val(txtcolumn.Tag) & "", ob.getconnection())
+            End If
+            If Val(txtvillageid.Tag) <> 0 Then
+                txtvillageid.Text = ob.FindOneString("select column_name from column_master where  column_id=" & Val(txtvillageid.Tag) & "", ob.getconnection())
+            End If
+            payac.Tag = dt.Rows(0).Item("cbj")
+            payac.Text = ob.FindOneString("Select Account_Name From Account_Master Where Account_Id=" & Val(payac.Tag) & "", ob.getconnection())
+            acname.Enabled = False
             'loaddgdate()
             'End If
         End If
@@ -282,10 +286,11 @@ Public Class OldMangnaReceipt
         Dim ssql As String
         ssql = "{Acmain.billno}=" & Val(Billno.Text) & ""
         ssql = ssql & " and {Acmain.ptype}='OReceipt'"
+        ssql = ssql & " and {Acmain.year_id}='" & clsVariables.WorkingYear & "'"
         clsVariables.ReportSql = ssql
-        clsVariables.NumtoWord = ob.Num_To_Guj_Word(Val(Netamt.Text))
+        clsVariables.NumtoWord = ob.Num_To_Guj_Word(Val(netamt.Text))
         clsVariables.Repheader = "BillPrint"
-        clsVariables.ReportName = "PaymentPrinting.rpt"
+        clsVariables.ReportName = "Receipt.rpt"
         print()
     End Sub
     Public Sub print()
@@ -424,7 +429,7 @@ Public Class OldMangnaReceipt
         CrystalReportViewer1.SelectionFormula = clsVariables.ReportSql
         crReportDocument.RecordSelectionFormula = clsVariables.ReportSql
         CrystalReportViewer1.ReportSource = crReportDocument
-        crReportDocument.PrintToPrinter(2, False, 0, 0)
+        crReportDocument.PrintToPrinter(Val(txtprint.Text), False, 0, 0)
         'End If
 
     End Sub

@@ -8,6 +8,7 @@ Public Class Rojmed
         Dim item As New ListViewItem
         item = Dg.Items.Add("Rojmed")
         item = Dg.Items.Add("RojmedFull")
+        item = Dg.Items.Add("RojmedFullDaily")
         dg1.Columns.Add("", "")
         Panel1.Visible = False
         'item.SubItems.Add("")
@@ -115,7 +116,7 @@ Public Class Rojmed
             clsVariables.ReportName = "NewRojmalReport.rpt"
             Dim frm As New Reportform
             frm.Show()
-        Else
+        ElseIf Dg.SelectedItems(0).SubItems(0).Text = "RojmedFull" Then
             accountdata()
             ssql = "{" & gRojmel & ".Company_id}=" & clsVariables.CompnyId
             'ssql = ssql & " and {" & gRojmel & ".ip_Address}=" & aq(IPAddress)
@@ -124,6 +125,17 @@ Public Class Rojmed
             clsVariables.ToDate = TxtToDate.Text
             clsVariables.Repheader = "Rojmed"
             clsVariables.ReportName = "NewRojmalReportDaily.rpt"
+            Dim frm As New Reportform
+            frm.Show()
+        Else
+            accountdata()
+            ssql = "{" & gRojmel & ".Company_id}=" & clsVariables.CompnyId
+            'ssql = ssql & " and {" & gRojmel & ".ip_Address}=" & aq(IPAddress)
+            clsVariables.ReportSql = ssql
+            clsVariables.FromDate = TxtfromDate.Text
+            clsVariables.ToDate = TxtToDate.Text
+            clsVariables.Repheader = "Rojmed"
+            clsVariables.ReportName = "NewRojmalReportDailydetail.rpt"
             Dim frm As New Reportform
             frm.Show()
         End If
@@ -147,7 +159,7 @@ Public Class Rojmed
         End If
         'Opening
         If TxtfromDate.Text = gFinYearBegin Then
-            Dim dtt As DataTable = ob.Returntable("select isnull(sum(isnull(dramt-cramt,0)),0) as amt from Acdata where acid=9941 and Docdate='" & ob.DateConversion(TxtToDate.Text) & "' and type in ('AcOpening','Opening')", ob.getconnection())
+            Dim dtt As DataTable = ob.Returntable("select isnull(sum(isnull(dramt-cramt,0)),0) as amt from Acdata where acid=9941 and Docdate='" & ob.DateConversion(TxtfromDate.Text) & "' and type in ('AcOpening','Opening')", ob.getconnection())
             dRunningBalance = Val(dtt.Rows(0).Item("amt"))
         Else
             Dim dtt As DataTable = ob.Returntable("select isnull(sum(isnull(dramt-cramt,0)),0) as amt from Acdata where acid=9941 and Docdate<'" & ob.DateConversion(TxtToDate.Text) & "' and year_id='" & clsVariables.WorkingYear & "'", ob.getconnection())
@@ -159,8 +171,12 @@ Public Class Rojmed
         If dtcr.Rows.Count > 0 Then
             For i As Integer = 0 To dtcr.Rows.Count - 1
                 Dim sname As String = ob.FindOneString("select member_name from MEMBER_MASTER where Member_Id in (select partyid from Acmain where Billno=" & Val(dtcr.Rows(i).Item("Docno")) & " and ptype='" & dtcr.Rows(i).Item("ptype") & "' and Year_id='" & dtcr.Rows(i).Item("Year_id") & "')", ob.getconnection())
+                Dim rems As String = ""
+                If sname <> Trim(dtcr.Rows(i).Item("Remarks")) Then
+                    rems = Trim(dtcr.Rows(i).Item("Remarks"))
+                End If
                 If dtcr.Rows(i).Item("ptype") <> "Sales" And dtcr.Rows(i).Item("ptype") <> "Receipt" And dtcr.Rows(i).Item("ptype") <> "Purchase" And dtcr.Rows(i).Item("ptype") <> "intrespayment" Then
-                    ob.Execute("INSERT INTO " & gRojmel & "(Company_Id,Account_id,Column_Id,Doc_Date,Doc_Type,Doc_no,Party_id,remarks,Credit_Amt,Debit_amt,Opamt,Sname) Values (1," & dtcr.Rows(i).Item("ACid") & ",1,'" & ob.DateConversion(dtcr.Rows(i).Item("Docdate")) & "',1," & Val(dtcr.Rows(i).Item("Docno")) & ",0,N'" & Trim(dtcr.Rows(i).Item("Remarks")) & "'," & dtcr.Rows(i).Item("Dramt") & "," & dtcr.Rows(i).Item("cramt") & ",0,N'" & Trim(sname) & "')", ob.getconnection())
+                    ob.Execute("INSERT INTO " & gRojmel & "(Company_Id,Account_id,Column_Id,Doc_Date,Doc_Type,Doc_no,Party_id,remarks,Credit_Amt,Debit_amt,Opamt,Sname) Values (1," & dtcr.Rows(i).Item("ACid") & ",1,'" & ob.DateConversion(dtcr.Rows(i).Item("Docdate")) & "',1," & Val(dtcr.Rows(i).Item("Docno")) & ",0,N'" & rems & "'," & dtcr.Rows(i).Item("Dramt") & "," & dtcr.Rows(i).Item("cramt") & ",0,N'" & Trim(sname) & "')", ob.getconnection())
                 Else
                     ob.Execute("INSERT INTO " & gRojmel & "(Company_Id,Account_id,Column_Id,Doc_Date,Doc_Type,Doc_no,Party_id,Credit_Amt,Debit_amt,Opamt,remarks,Sname) Values (1," & dtcr.Rows(i).Item("ACid") & ",1,'" & ob.DateConversion(dtcr.Rows(i).Item("Docdate")) & "',1," & Val(dtcr.Rows(i).Item("Docno")) & ",0," & dtcr.Rows(i).Item("Dramt") & "," & dtcr.Rows(i).Item("cramt") & ",0,'-',N'" & Trim(sname) & "')", ob.getconnection())
 
@@ -173,9 +189,12 @@ Public Class Rojmed
         If dtcrc.Rows.Count > 0 Then
             For i As Integer = 0 To dtcrc.Rows.Count - 1
                 Dim sname As String = ob.FindOneString("select member_name from MEMBER_MASTER where Member_Id in (select partyid from Acmain where Billno=" & Val(dtcrc.Rows(i).Item("Docno")) & " and ptype='" & dtcrc.Rows(i).Item("ptype") & "' and Year_id='" & dtcrc.Rows(i).Item("Year_id") & "')", ob.getconnection())
-
+                Dim rems As String = ""
+                If sname <> Trim(dtcrc.Rows(i).Item("Remarks")) Then
+                    rems = Trim(dtcrc.Rows(i).Item("Remarks"))
+                End If
                 If dtcrc.Rows(i).Item("ptype") <> "Sales" And dtcrc.Rows(i).Item("ptype") <> "Receipt" And dtcrc.Rows(i).Item("ptype") <> "Purchase" And dtcrc.Rows(i).Item("ptype") <> "intrespayment" Then
-                    ob.Execute("INSERT INTO " & gRojmel & "(Company_Id,Account_id,Column_Id,Doc_Date,Doc_Type,Doc_no,Party_id,JK_Credit_Amt,JK_Debit_amt,Debit_amt,Credit_Amt,Opamt,remarks,Sname) Values (1," & dtcrc.Rows(i).Item("ACid") & ",1,'" & ob.DateConversion(dtcrc.Rows(i).Item("Docdate")) & "',1," & Val(dtcrc.Rows(i).Item("Docno")) & ",0," & dtcrc.Rows(i).Item("Dramt") & "," & dtcrc.Rows(i).Item("cramt") & ",0,0,0,N'" & Trim(dtcrc.Rows(i).Item("Remarks")) & "',N'" & Trim(sname) & "')", ob.getconnection())
+                    ob.Execute("INSERT INTO " & gRojmel & "(Company_Id,Account_id,Column_Id,Doc_Date,Doc_Type,Doc_no,Party_id,JK_Credit_Amt,JK_Debit_amt,Debit_amt,Credit_Amt,Opamt,remarks,Sname) Values (1," & dtcrc.Rows(i).Item("ACid") & ",1,'" & ob.DateConversion(dtcrc.Rows(i).Item("Docdate")) & "',1," & Val(dtcrc.Rows(i).Item("Docno")) & ",0," & dtcrc.Rows(i).Item("Dramt") & "," & dtcrc.Rows(i).Item("cramt") & ",0,0,0,N'" & Trim(rems) & "',N'" & Trim(sname) & "')", ob.getconnection())
                 Else
                     ob.Execute("INSERT INTO " & gRojmel & "(Company_Id,Account_id,Column_Id,Doc_Date,Doc_Type,Doc_no,Party_id,JK_Credit_Amt,JK_Debit_amt,Debit_amt,Credit_Amt,Opamt,remarks,Sname) Values (1," & dtcrc.Rows(i).Item("ACid") & ",1,'" & ob.DateConversion(dtcrc.Rows(i).Item("Docdate")) & "',1," & Val(dtcrc.Rows(i).Item("Docno")) & ",0," & dtcrc.Rows(i).Item("Dramt") & "," & dtcrc.Rows(i).Item("cramt") & ",0,0,0,'-',N'" & Trim(sname) & "')", ob.getconnection())
                 End If
@@ -188,8 +207,11 @@ Public Class Rojmed
         If dtcrcc.Rows.Count > 0 Then
             For i As Integer = 0 To dtcrcc.Rows.Count - 1
                 Dim sname As String = ob.FindOneString("select member_name from MEMBER_MASTER where Member_Id in (select partyid from Acmain where Billno=" & Val(dtcrcc.Rows(i).Item("Docno")) & " and ptype='" & dtcrcc.Rows(i).Item("ptype") & "' and Year_id='" & dtcrcc.Rows(i).Item("Year_id") & "')", ob.getconnection())
-
-                ob.Execute("INSERT INTO " & gRojmel & "(Company_Id,Account_id,Column_Id,Doc_Date,Doc_Type,Doc_no,Party_id,remarks,Debit_amt,Credit_Amt,Sname) Values (" & clsVariables.CompnyId & "," & dtcrcc.Rows(i).Item("ACid") & ",1,'" & ob.DateConversion(dtcrcc.Rows(i).Item("Docdate")) & "',1," & Val(dtcrcc.Rows(i).Item("Docno")) & ",0,N'" & Trim(dtcrcc.Rows(i).Item("Remarks")) & "'," & dtcrcc.Rows(i).Item("Cramt") & "," & dtcrcc.Rows(i).Item("Dramt") & ",N'" & Trim(sname) & "')", ob.getconnection())
+                Dim rems As String = ""
+                If sname <> Trim(dtcrcc.Rows(i).Item("Remarks")) Then
+                    rems = Trim(dtcrcc.Rows(i).Item("Remarks"))
+                End If
+                ob.Execute("INSERT INTO " & gRojmel & "(Company_Id,Account_id,Column_Id,Doc_Date,Doc_Type,Doc_no,Party_id,remarks,Debit_amt,Credit_Amt,Sname) Values (" & clsVariables.CompnyId & "," & dtcrcc.Rows(i).Item("ACid") & ",1,'" & ob.DateConversion(dtcrcc.Rows(i).Item("Docdate")) & "',1," & Val(dtcrcc.Rows(i).Item("Docno")) & ",0,N'" & Trim(rems) & "'," & dtcrcc.Rows(i).Item("Cramt") & "," & dtcrcc.Rows(i).Item("Dramt") & ",N'" & Trim(sname) & "')", ob.getconnection())
 
 
             Next
@@ -202,8 +224,11 @@ Public Class Rojmed
         If dtcrccd.Rows.Count > 0 Then
             For i As Integer = 0 To dtcrccd.Rows.Count - 1
                 Dim sname As String = ob.FindOneString("select member_name from MEMBER_MASTER where Member_Id in (select partyid from Acmain where Billno=" & Val(dtcrccd.Rows(i).Item("Docno")) & " and ptype='" & dtcrccd.Rows(i).Item("ptype") & "' and Year_id='" & dtcrccd.Rows(i).Item("Year_id") & "')", ob.getconnection())
-
-                ob.Execute("INSERT INTO " & gRojmel & "(Company_Id,Account_id,Column_Id,Doc_Date,Doc_Type,Doc_no,Party_id,remarks,JK_Debit_amt,JK_Credit_Amt,Debit_amt,Credit_Amt,Sname) Values (" & clsVariables.CompnyId & "," & dtcrccd.Rows(i).Item("ACid") & ",1,'" & ob.DateConversion(dtcrccd.Rows(i).Item("Docdate")) & "',1," & Val(dtcrccd.Rows(i).Item("Docno")) & ",0,N'" & Trim(dtcrccd.Rows(i).Item("Remarks")) & "'," & dtcrccd.Rows(i).Item("Dramt") & "," & dtcrccd.Rows(i).Item("cramt") & ",0,0,N'" & Trim(sname) & "')", ob.getconnection())
+                Dim rems As String = ""
+                If sname <> Trim(dtcrccd.Rows(i).Item("Remarks")) Then
+                    rems = Trim(dtcrccd.Rows(i).Item("Remarks"))
+                End If
+                ob.Execute("INSERT INTO " & gRojmel & "(Company_Id,Account_id,Column_Id,Doc_Date,Doc_Type,Doc_no,Party_id,remarks,JK_Debit_amt,JK_Credit_Amt,Debit_amt,Credit_Amt,Sname) Values (" & clsVariables.CompnyId & "," & dtcrccd.Rows(i).Item("ACid") & ",1,'" & ob.DateConversion(dtcrccd.Rows(i).Item("Docdate")) & "',1," & Val(dtcrccd.Rows(i).Item("Docno")) & ",0,N'" & Trim(rems) & "'," & dtcrccd.Rows(i).Item("Dramt") & "," & dtcrccd.Rows(i).Item("cramt") & ",0,0,N'" & Trim(sname) & "')", ob.getconnection())
 
 
             Next
@@ -231,6 +256,7 @@ Public Class Rojmed
         clsVariables.NumtoWord = ob.Num_To_Guj_Word(dCloseBalance)
         ob.Execute("Update ROJMEL set JK_Credit_Amt=0 where JK_Credit_Amt is null", ob.getconnection())
         ob.Execute("Update ROJMEL set JK_Debit_amt=0 where JK_Debit_amt is null", ob.getconnection())
+        ob.Execute("Update ROJMEL set ip_address='" & IPAddress & "'", ob.getconnection())
 
     End Sub
 

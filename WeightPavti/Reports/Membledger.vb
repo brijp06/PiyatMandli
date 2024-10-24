@@ -106,10 +106,20 @@ Public Class Membledger
             frm.Show()
         ElseIf Dg.SelectedItems(0).SubItems(0).Text = "Account Balance Report" Then
             ob.Execute("delete from tmpbalance", ob.getconnection())
-            Dim dt As DataTable = ob.Returntable("select Partyid,m.Member_name,SUM(Paymentamt) as  py,SUM(receiptamt) as rc from Acmain inner join MEMBER_MASTER as m on Acmain.Partyid=m.Member_Id  where  Billdate<='" & ob.DateConversion(TxtToDate.Text) & "' and acid=" & Acname.Tag & "  group by Partyid,m.Member_name  order by Partyid", ob.getconnection())
+            Dim dt As DataTable
+            If Val(Membname.Tag) = 0 Then
+                dt = ob.Returntable("select Partyid,m.Member_name,SUM(Paymentamt) as  py,SUM(receiptamt) as rc,sum(isnull(Roundoff,0)) as rf,sum(isnull(intamt,0)) as intamt,sum(isnull(Basic,0)) as Basic from Acmain inner join MEMBER_MASTER as m on Acmain.Partyid=m.Member_Id  where  Billdate<='" & ob.DateConversion(TxtToDate.Text) & "' and acid=" & Val(Acname.Tag) & "   group by Partyid,m.Member_name  order by Partyid", ob.getconnection())
+            Else
+                dt = ob.Returntable("select Partyid,m.Member_name,SUM(Paymentamt) as  py,SUM(receiptamt) as rc,sum(isnull(Roundoff,0)) as rf,sum(isnull(intamt,0)) as intamt,sum(isnull(Basic,0)) as Basic from Acmain inner join MEMBER_MASTER as m on Acmain.Partyid=m.Member_Id  where  Billdate<='" & ob.DateConversion(TxtToDate.Text) & "' and acid=" & Val(Acname.Tag) & " and partyid=" & Val(Membname.Tag) & "   group by Partyid,m.Member_name  order by Partyid", ob.getconnection())
+            End If
             For i As Integer = 0 To dt.Rows.Count - 1
                 Dim bal As Double = 0
-                bal = Val(dt.Rows(i).Item("rc")) - Val(dt.Rows(i).Item("py"))
+                If Val(dt.Rows(i).Item("rc")) > Val(dt.Rows(i).Item("py")) Then
+                    bal = Val(dt.Rows(i).Item("rc")) - Val(dt.Rows(i).Item("py"))
+                Else
+                    bal = Val(dt.Rows(i).Item("py")) - Val(dt.Rows(i).Item("rc"))
+                End If
+                bal = Val(bal) - Val(dt.Rows(i).Item("rf"))
                 If Val(bal) <> 0 Then
                     ob.Execute("Insert into tmpbalance(id,Mname,Balance1) values(" & dt.Rows(i).Item("Partyid") & ",N'" & dt.Rows(i).Item("Member_name") & "'," & Val(bal) & ")", ob.getconnection())
                 End If
@@ -143,6 +153,7 @@ Public Class Membledger
             Dim frm As New Reportform
             frm.Show()
         Else
+            ob.Execute("update acmain set Roundoff=0 where Roundoff is null", ob.getconnection())
             ssql = "{Acmain.Billdate}>=#" & ob.DateConversion(TxtfromDate.Text) & "#"
             ssql = ssql & " and {Acmain.Billdate}<=#" & ob.DateConversion(TxtToDate.Text) & "#"
             If Val(Membname.Tag) <> 0 Then

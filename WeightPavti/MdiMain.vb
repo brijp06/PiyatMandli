@@ -1835,7 +1835,7 @@ Public Class MdiMain
     End Sub
 
     Private Sub GDataTransferToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GDataTransferToolStripMenuItem.Click
-
+        FrmDataTrasfer.Show()
     End Sub
 
     Private Sub LoanToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles LoanToolStripMenuItem.Click
@@ -1889,5 +1889,9 @@ Public Class MdiMain
 
     Private Sub SrKitivhToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SrKitivhToolStripMenuItem.Click
         Shareledger.Show()
+    End Sub
+
+    Private Sub RationToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RationToolStripMenuItem.Click
+
     End Sub
 End Class
